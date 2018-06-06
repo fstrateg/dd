@@ -1,12 +1,14 @@
 <?php
 namespace backend\controllers;
 
+use backend\models\Users;
 use common\models\Access;
 use Yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
+use yii\data\ActiveDataProvider;
 use yii\web\ForbiddenHttpException;
 
 /**
@@ -28,7 +30,7 @@ class SiteController extends Controller
                         'allow' => true,
                     ],
                     [
-                        'actions' => ['logout', 'index'],
+                        'actions' => ['logout', 'index', 'users'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -105,5 +107,21 @@ class SiteController extends Controller
         Yii::$app->user->logout();
 
         return $this->goHome();
+    }
+
+    public function actionUsers()
+    {
+        //$model=Users::find()->orderBy("username")->all();
+        $dataProvider = new ActiveDataProvider([
+            'query' => Users::find(),
+            'sort' => [ // сортировка по умолчанию
+                'defaultOrder' => ['username' => SORT_DESC],
+            ],
+            'pagination' => [ // постраничная разбивка
+                'pageSize' => 10, // 10 новостей на странице
+            ],
+        ]);
+        return $this->render('users',['data'=>$dataProvider]);
+
     }
 }
