@@ -1,0 +1,2503 @@
+2018-02-11 16:32:56 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/work/OpenServer/domains/lali.git/frontend/web/assets' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\AssetManager.php:213
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\BaseObject.php(108): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\BaseObject->__construct(Array)
+#2 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#3 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(724): yii\di\ServiceLocator->get('assetManager', true)
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(608): yii\base\Module->get('assetManager')
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#9 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\View.php(285): yii\web\View->getAssetManager()
+#10 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('frontend\\assets...')
+#11 D:\work\OpenServer\domains\lali.git\frontend\views\layouts\main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#12 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(332): require('D:\\work\\OpenSer...')
+#13 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\work\\OpenSer...', Array)
+#14 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('D:\\work\\OpenSer...', Array, Object(frontend\controllers\SiteController))
+#15 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#16 D:\work\OpenServer\domains\lali.git\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#17 [internal function]: frontend\controllers\SiteController->actionIndex()
+#18 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#21 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#22 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#24 {main}
+2018-02-11 16:32:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => 'n5klas2lp0vjc4pbte1gesfkp6'
+    '_csrf-backend' => 'a902837997ce7329b0d26b20cbd39fdb14ef43b5096b8768a4f5f60a46b39585a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ylKuVyFDA4zSojhDRAwKESFHXTAWwX7_\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=n5klas2lp0vjc4pbte1gesfkp6; _csrf-backend=a902837997ce7329b0d26b20cbd39fdb14ef43b5096b8768a4f5f60a46b39585a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ylKuVyFDA4zSojhDRAwKESFHXTAWwX7_%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '5370'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518352375.939
+    'REQUEST_TIME' => 1518352375
+    'argv' => []
+    'argc' => 0
+]
+2018-02-11 16:33:40 [127.0.0.1][-][haah6abo97cbofviddqqf4uio4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "gii".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-11 16:33:40 [127.0.0.1][-][haah6abo97cbofviddqqf4uio4][info][application] $_COOKIE = [
+    'advanced-backend' => 'n5klas2lp0vjc4pbte1gesfkp6'
+    '_csrf-backend' => 'a902837997ce7329b0d26b20cbd39fdb14ef43b5096b8768a4f5f60a46b39585a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ylKuVyFDA4zSojhDRAwKESFHXTAWwX7_\";}'
+    'advanced-frontend' => 'haah6abo97cbofviddqqf4uio4'
+    '_csrf-frontend' => 'd4e08e2ca370541f59f515476fe3bab6ad582fdf5b8200100d565798aba07fe0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"r2BqTTiltefWnKb1JCuCzDlhjSGHmBrs\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=n5klas2lp0vjc4pbte1gesfkp6; _csrf-backend=a902837997ce7329b0d26b20cbd39fdb14ef43b5096b8768a4f5f60a46b39585a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ylKuVyFDA4zSojhDRAwKESFHXTAWwX7_%22%3B%7D; advanced-frontend=haah6abo97cbofviddqqf4uio4; _csrf-frontend=d4e08e2ca370541f59f515476fe3bab6ad582fdf5b8200100d565798aba07fe0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22r2BqTTiltefWnKb1JCuCzDlhjSGHmBrs%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '5443'
+    'REDIRECT_URL' => '/frontend/web/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gii'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518352419.738
+    'REQUEST_TIME' => 1518352419
+    'argv' => []
+    'argc' => 0
+]
+2018-02-11 17:27:03 [127.0.0.1][-][alg33gmp2ogu2qtfoptio6m4u0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "gii".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-11 17:27:02 [127.0.0.1][-][alg33gmp2ogu2qtfoptio6m4u0][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '8486'
+    'REDIRECT_URL' => '/frontend/web/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gii'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518355622.36
+    'REQUEST_TIME' => 1518355622
+    'argv' => []
+    'argc' => 0
+]
+2018-02-11 17:30:32 [127.0.0.1][-][alg33gmp2ogu2qtfoptio6m4u0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "gii".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-11 17:30:31 [127.0.0.1][-][alg33gmp2ogu2qtfoptio6m4u0][info][application] $_COOKIE = [
+    'advanced-frontend' => 'alg33gmp2ogu2qtfoptio6m4u0'
+    '_csrf-frontend' => 'c398640bbe02e1e2bb984e55b8ff6abcc729e10721d8ea077c42ac54e5f18f91a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"orgV6m1aFbMWN_kJdk6fvRWXv_e3KMnk\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=alg33gmp2ogu2qtfoptio6m4u0; _csrf-frontend=c398640bbe02e1e2bb984e55b8ff6abcc729e10721d8ea077c42ac54e5f18f91a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22orgV6m1aFbMWN_kJdk6fvRWXv_e3KMnk%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '8798'
+    'REDIRECT_URL' => '/frontend/web/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gii'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518355831.492
+    'REQUEST_TIME' => 1518355831
+    'argv' => []
+    'argc' => 0
+]
+2018-02-11 17:30:37 [127.0.0.1][-][alg33gmp2ogu2qtfoptio6m4u0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "gii".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-11 17:30:36 [127.0.0.1][-][alg33gmp2ogu2qtfoptio6m4u0][info][application] $_COOKIE = [
+    'advanced-frontend' => 'alg33gmp2ogu2qtfoptio6m4u0'
+    '_csrf-frontend' => 'c398640bbe02e1e2bb984e55b8ff6abcc729e10721d8ea077c42ac54e5f18f91a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"orgV6m1aFbMWN_kJdk6fvRWXv_e3KMnk\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=alg33gmp2ogu2qtfoptio6m4u0; _csrf-frontend=c398640bbe02e1e2bb984e55b8ff6abcc729e10721d8ea077c42ac54e5f18f91a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22orgV6m1aFbMWN_kJdk6fvRWXv_e3KMnk%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '8798'
+    'REDIRECT_URL' => '/frontend/web/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gii'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518355836.415
+    'REQUEST_TIME' => 1518355836
+    'argv' => []
+    'argc' => 0
+]
+2018-02-12 20:54:06 [127.0.0.1][-][l4i80fj2kbgespah6ketf5ucd3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('index.php', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-12 20:54:06 [127.0.0.1][-][l4i80fj2kbgespah6ketf5ucd3][info][application] $_GET = [
+    'XDEBUG_SESSION_START' => '19429'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '4e325208f79455a19514d6ac90df8db869e4e34c1a4a29ba63e66717431e52cea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"JlWVZF3u4d6LiLB2eTdgHRKkbwKf2wYF\";}'
+    'advanced-backend' => '4lht14nhimet7dn1eqagssq2r4'
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=4e325208f79455a19514d6ac90df8db869e4e34c1a4a29ba63e66717431e52cea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22JlWVZF3u4d6LiLB2eTdgHRKkbwKf2wYF%22%3B%7D; advanced-backend=4lht14nhimet7dn1eqagssq2r4; _identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '9349'
+    'REDIRECT_QUERY_STRING' => 'XDEBUG_SESSION_START=19429'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'XDEBUG_SESSION_START=19429'
+    'REQUEST_URI' => '/index.php?XDEBUG_SESSION_START=19429'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518454445.329
+    'REQUEST_TIME' => 1518454445
+    'argv' => [
+        0 => 'XDEBUG_SESSION_START=19429'
+    ]
+    'argc' => 1
+]
+2018-02-13 20:17:28 [127.0.0.1][-][7jis05k49va3nakgt5r7meuho3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('index.php', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-13 20:17:28 [127.0.0.1][-][7jis05k49va3nakgt5r7meuho3][info][application] $_GET = [
+    'XDEBUG_SESSION_START' => '14163'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'crjc35ucrte5hagc07q4d0mfj1'
+    '_csrf-backend' => '6033132b5161e2ff6470a11d6d748ef37f11cf10c977b3d12381bee803729044a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"R_gyzob8FX9_bCdUrz0AuRuLbEqDYkJV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=crjc35ucrte5hagc07q4d0mfj1; _csrf-backend=6033132b5161e2ff6470a11d6d748ef37f11cf10c977b3d12381bee803729044a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22R_gyzob8FX9_bCdUrz0AuRuLbEqDYkJV%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '3583'
+    'REDIRECT_QUERY_STRING' => 'XDEBUG_SESSION_START=14163'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'XDEBUG_SESSION_START=14163'
+    'REQUEST_URI' => '/index.php?XDEBUG_SESSION_START=14163'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518538647.224
+    'REQUEST_TIME' => 1518538647
+    'argv' => [
+        0 => 'XDEBUG_SESSION_START=14163'
+    ]
+    'argc' => 1
+]
+2018-02-13 20:39:53 [127.0.0.1][-][7jis05k49va3nakgt5r7meuho3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('index.php', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-13 20:39:53 [127.0.0.1][-][7jis05k49va3nakgt5r7meuho3][info][application] $_GET = [
+    'XDEBUG_SESSION_START' => '14163'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'crjc35ucrte5hagc07q4d0mfj1'
+    '_csrf-backend' => '6033132b5161e2ff6470a11d6d748ef37f11cf10c977b3d12381bee803729044a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"R_gyzob8FX9_bCdUrz0AuRuLbEqDYkJV\";}'
+    'XDEBUG_SESSION' => '14163'
+    'advanced-frontend' => '7jis05k49va3nakgt5r7meuho3'
+    '_csrf-frontend' => '5653c4128533a37b14e163d3f84933b9a8177632de959473e8b76865383fbfa9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"brrX-BkmvNqwXpMiGIfxcpWhpbZNLN81\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=crjc35ucrte5hagc07q4d0mfj1; _csrf-backend=6033132b5161e2ff6470a11d6d748ef37f11cf10c977b3d12381bee803729044a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22R_gyzob8FX9_bCdUrz0AuRuLbEqDYkJV%22%3B%7D; XDEBUG_SESSION=14163; advanced-frontend=7jis05k49va3nakgt5r7meuho3; _csrf-frontend=5653c4128533a37b14e163d3f84933b9a8177632de959473e8b76865383fbfa9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22brrX-BkmvNqwXpMiGIfxcpWhpbZNLN81%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '6129'
+    'REDIRECT_QUERY_STRING' => 'XDEBUG_SESSION_START=14163'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'XDEBUG_SESSION_START=14163'
+    'REQUEST_URI' => '/index.php?XDEBUG_SESSION_START=14163'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518539992.905
+    'REQUEST_TIME' => 1518539992
+    'argv' => [
+        0 => 'XDEBUG_SESSION_START=14163'
+    ]
+    'argc' => 1
+]
+2018-02-14 19:29:10 [127.0.0.1][-][p09r6uva2orfj1kdqff5bq8651][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('index.php', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-14 19:29:10 [127.0.0.1][-][p09r6uva2orfj1kdqff5bq8651][info][application] $_GET = [
+    'XDEBUG_SESSION_START' => '10260'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'd4m1rali6h4h2sscnhisk1ao37'
+    '_csrf-backend' => '02ab2f6245c179de3d82bf68c66643c98477c43027bda49602d86681eb8614d5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"n3AFd7YhSNPvnMWGWyPMMOdsEyK9NTMb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=d4m1rali6h4h2sscnhisk1ao37; _csrf-backend=02ab2f6245c179de3d82bf68c66643c98477c43027bda49602d86681eb8614d5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22n3AFd7YhSNPvnMWGWyPMMOdsEyK9NTMb%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '1805'
+    'REDIRECT_QUERY_STRING' => 'XDEBUG_SESSION_START=10260'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'XDEBUG_SESSION_START=10260'
+    'REQUEST_URI' => '/index.php?XDEBUG_SESSION_START=10260'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518622148.028
+    'REQUEST_TIME' => 1518622148
+    'argv' => [
+        0 => 'XDEBUG_SESSION_START=10260'
+    ]
+    'argc' => 1
+]
+2018-02-14 19:40:11 [127.0.0.1][-][p09r6uva2orfj1kdqff5bq8651][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('index.php', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-14 19:40:10 [127.0.0.1][-][p09r6uva2orfj1kdqff5bq8651][info][application] $_GET = [
+    'XDEBUG_SESSION_START' => '10260'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'd4m1rali6h4h2sscnhisk1ao37'
+    '_csrf-backend' => '02ab2f6245c179de3d82bf68c66643c98477c43027bda49602d86681eb8614d5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"n3AFd7YhSNPvnMWGWyPMMOdsEyK9NTMb\";}'
+    'XDEBUG_SESSION' => '10260'
+    'advanced-frontend' => 'p09r6uva2orfj1kdqff5bq8651'
+    '_csrf-frontend' => 'a9cedafc59f9dcbf7db2ddac943cdde74e4302ec273513de41fc6bc223875d82a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nD2oV7FJi6iXUogGwKaIokuAERzAqW_N\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=d4m1rali6h4h2sscnhisk1ao37; _csrf-backend=02ab2f6245c179de3d82bf68c66643c98477c43027bda49602d86681eb8614d5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22n3AFd7YhSNPvnMWGWyPMMOdsEyK9NTMb%22%3B%7D; XDEBUG_SESSION=10260; advanced-frontend=p09r6uva2orfj1kdqff5bq8651; _csrf-frontend=a9cedafc59f9dcbf7db2ddac943cdde74e4302ec273513de41fc6bc223875d82a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nD2oV7FJi6iXUogGwKaIokuAERzAqW_N%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '2843'
+    'REDIRECT_QUERY_STRING' => 'XDEBUG_SESSION_START=10260'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'XDEBUG_SESSION_START=10260'
+    'REQUEST_URI' => '/index.php?XDEBUG_SESSION_START=10260'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518622810.569
+    'REQUEST_TIME' => 1518622810
+    'argv' => [
+        0 => 'XDEBUG_SESSION_START=10260'
+    ]
+    'argc' => 1
+]
+2018-02-14 20:12:28 [127.0.0.1][-][p09r6uva2orfj1kdqff5bq8651][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('index.php', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-14 20:12:27 [127.0.0.1][-][p09r6uva2orfj1kdqff5bq8651][info][application] $_GET = [
+    'XDEBUG_SESSION_START' => '11668'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'd4m1rali6h4h2sscnhisk1ao37'
+    '_csrf-backend' => '02ab2f6245c179de3d82bf68c66643c98477c43027bda49602d86681eb8614d5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"n3AFd7YhSNPvnMWGWyPMMOdsEyK9NTMb\";}'
+    'XDEBUG_SESSION' => '10260'
+    'advanced-frontend' => 'p09r6uva2orfj1kdqff5bq8651'
+    '_csrf-frontend' => 'a9cedafc59f9dcbf7db2ddac943cdde74e4302ec273513de41fc6bc223875d82a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nD2oV7FJi6iXUogGwKaIokuAERzAqW_N\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=d4m1rali6h4h2sscnhisk1ao37; _csrf-backend=02ab2f6245c179de3d82bf68c66643c98477c43027bda49602d86681eb8614d5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22n3AFd7YhSNPvnMWGWyPMMOdsEyK9NTMb%22%3B%7D; XDEBUG_SESSION=10260; advanced-frontend=p09r6uva2orfj1kdqff5bq8651; _csrf-frontend=a9cedafc59f9dcbf7db2ddac943cdde74e4302ec273513de41fc6bc223875d82a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nD2oV7FJi6iXUogGwKaIokuAERzAqW_N%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '5360'
+    'REDIRECT_QUERY_STRING' => 'XDEBUG_SESSION_START=11668'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'XDEBUG_SESSION_START=11668'
+    'REQUEST_URI' => '/index.php?XDEBUG_SESSION_START=11668'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518624746.791
+    'REQUEST_TIME' => 1518624746
+    'argv' => [
+        0 => 'XDEBUG_SESSION_START=11668'
+    ]
+    'argc' => 1
+]
+2018-02-14 20:14:54 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_get_contents(https://api.telegram.org/bot??/sendMessage): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+' in D:\work\OpenServer\domains\lali.git\common\components\Telegram.php:57
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\common\components\Telegram.php(36): common\components\Telegram->sendMessageInChat('', '', '')
+#1 D:\work\OpenServer\domains\lali.git\common\components\SMS.php(167): common\components\Telegram->sendMessageAll('', '')
+#2 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(93): common\components\SMS::sendSmsNumber('')
+#3 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): frontend\controllers\JobsController->actionSendday('')
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#9 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2018-02-14 20:13:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'day' => '42'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'd4m1rali6h4h2sscnhisk1ao37'
+    '_csrf-backend' => '02ab2f6245c179de3d82bf68c66643c98477c43027bda49602d86681eb8614d5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"n3AFd7YhSNPvnMWGWyPMMOdsEyK9NTMb\";}'
+    'advanced-frontend' => 'p09r6uva2orfj1kdqff5bq8651'
+    '_csrf-frontend' => 'a9cedafc59f9dcbf7db2ddac943cdde74e4302ec273513de41fc6bc223875d82a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nD2oV7FJi6iXUogGwKaIokuAERzAqW_N\";}'
+    'XDEBUG_SESSION' => '11668'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=d4m1rali6h4h2sscnhisk1ao37; _csrf-backend=02ab2f6245c179de3d82bf68c66643c98477c43027bda49602d86681eb8614d5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22n3AFd7YhSNPvnMWGWyPMMOdsEyK9NTMb%22%3B%7D; advanced-frontend=p09r6uva2orfj1kdqff5bq8651; _csrf-frontend=a9cedafc59f9dcbf7db2ddac943cdde74e4302ec273513de41fc6bc223875d82a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nD2oV7FJi6iXUogGwKaIokuAERzAqW_N%22%3B%7D; XDEBUG_SESSION=11668'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '5480'
+    'REDIRECT_QUERY_STRING' => 'day=42'
+    'REDIRECT_URL' => '/frontend/web/jobs/sendday'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'day=42'
+    'REQUEST_URI' => '/jobs/sendday?day=42'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518624818.934
+    'REQUEST_TIME' => 1518624818
+    'argv' => [
+        0 => 'day=42'
+    ]
+    'argc' => 1
+]
+2018-02-16 21:46:00 [127.0.0.1][-][fer0c5pbfd03qdot9qgjlio8i4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "gii".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('gii', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-16 21:45:59 [127.0.0.1][-][fer0c5pbfd03qdot9qgjlio8i4][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'fkons17slv9ivimm6pmi2rrqc5'
+    '_csrf-backend' => '3f303ba5a7039a5f04343bacc34a3716e4e978c2f14fb85004fa086f72d9a280a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ElUtGv0QZS5NMNKN6DH0eOgXAmYAxhQD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=fkons17slv9ivimm6pmi2rrqc5; _csrf-backend=3f303ba5a7039a5f04343bacc34a3716e4e978c2f14fb85004fa086f72d9a280a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ElUtGv0QZS5NMNKN6DH0eOgXAmYAxhQD%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '4178'
+    'REDIRECT_URL' => '/frontend/web/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gii'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518795959.444
+    'REQUEST_TIME' => 1518795959
+    'argv' => []
+    'argc' => 0
+]
+2018-02-18 23:59:09 [127.0.0.1][-][tiof249un0nkpemm401bos6ko2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('index.php', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-18 23:59:08 [127.0.0.1][-][tiof249un0nkpemm401bos6ko2][info][application] $_GET = [
+    'XDEBUG_SESSION_START' => '14844'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'qlanolsb64trtg3fbeu9okt590'
+    '_csrf-backend' => '922322f5241a0bbf60299bb54646c80faa821cf3bacefc12a282f9305e451598a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ax5ymQx0NMaNxJUVCnPURNF4aHn9ohvM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=qlanolsb64trtg3fbeu9okt590; _csrf-backend=922322f5241a0bbf60299bb54646c80faa821cf3bacefc12a282f9305e451598a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ax5ymQx0NMaNxJUVCnPURNF4aHn9ohvM%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '15576'
+    'REDIRECT_QUERY_STRING' => 'XDEBUG_SESSION_START=14844'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'XDEBUG_SESSION_START=14844'
+    'REQUEST_URI' => '/index.php?XDEBUG_SESSION_START=14844'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518976746.978
+    'REQUEST_TIME' => 1518976746
+    'argv' => [
+        0 => 'XDEBUG_SESSION_START=14844'
+    ]
+    'argc' => 1
+]
+2018-02-20 21:17:34 [127.0.0.1][-][b08rqgh9s6omvgh23g0ihb0kt7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.php".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('index.php', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-20 21:17:33 [127.0.0.1][-][b08rqgh9s6omvgh23g0ihb0kt7][info][application] $_GET = [
+    'XDEBUG_SESSION_START' => '13217'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => '9fv0utc3tq7n8gnj892n0u1492'
+    '_csrf-backend' => 'e12c90a616eb82b4ef4c40f7bed48b69b4af3649b049401bab4aa0932868d801a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"m4FDV9k6Ybq3KNfNW0v-IvCfxOYcOmn5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=9fv0utc3tq7n8gnj892n0u1492; _csrf-backend=e12c90a616eb82b4ef4c40f7bed48b69b4af3649b049401bab4aa0932868d801a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22m4FDV9k6Ybq3KNfNW0v-IvCfxOYcOmn5%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '15526'
+    'REDIRECT_QUERY_STRING' => 'XDEBUG_SESSION_START=13217'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'XDEBUG_SESSION_START=13217'
+    'REQUEST_URI' => '/index.php?XDEBUG_SESSION_START=13217'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1519139851.184
+    'REQUEST_TIME' => 1519139851
+    'argv' => [
+        0 => 'XDEBUG_SESSION_START=13217'
+    ]
+    'argc' => 1
+]
+2018-02-20 21:21:48 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\components\common\models\SettingsRecord' not found' in D:\work\OpenServer\domains\lali.git\common\components\Telegram.php:17
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(80): common\components\Telegram::instance()
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): frontend\controllers\JobsController->actionTest()
+#2 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#3 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#7 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-02-20 21:21:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => '9fv0utc3tq7n8gnj892n0u1492'
+    '_csrf-backend' => 'e12c90a616eb82b4ef4c40f7bed48b69b4af3649b049401bab4aa0932868d801a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"m4FDV9k6Ybq3KNfNW0v-IvCfxOYcOmn5\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=9fv0utc3tq7n8gnj892n0u1492; _csrf-backend=e12c90a616eb82b4ef4c40f7bed48b69b4af3649b049401bab4aa0932868d801a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22m4FDV9k6Ybq3KNfNW0v-IvCfxOYcOmn5%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '16177'
+    'REDIRECT_URL' => '/frontend/web/jobs/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/jobs/test'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1519140107.649
+    'REQUEST_TIME' => 1519140107
+    'argv' => []
+    'argc' => 0
+]
+2018-02-21 21:19:36 [127.0.0.1][-][mitbvtdcd6ovm4tcefnkv396s4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "bit.ly/epil_kg".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('bit.ly/epil_kg', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-02-21 21:19:36 [127.0.0.1][-][mitbvtdcd6ovm4tcefnkv396s4][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => 'mitbvtdcd6ovm4tcefnkv396s4'
+    '_csrf-frontend' => 'f794aa11fbe46f622e5989fb98f80ece1469f14d86662a9d5e19e8f4d2d3d278a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"HzVX5UjxhxYyY45SFPRXaUtcCsFJOLDC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://lali.git/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=mitbvtdcd6ovm4tcefnkv396s4; _csrf-frontend=f794aa11fbe46f622e5989fb98f80ece1469f14d86662a9d5e19e8f4d2d3d278a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22HzVX5UjxhxYyY45SFPRXaUtcCsFJOLDC%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '11090'
+    'REDIRECT_URL' => '/frontend/web/bit.ly/epil_kg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bit.ly/epil_kg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1519226375.928
+    'REQUEST_TIME' => 1519226375
+    'argv' => []
+    'argc' => 0
+]
+2018-02-21 22:02:18 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.last_record' in 'on clause'' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\work\OpenServer\domains\lali.git\common\components\SMS.php(161): yii\db\Command->queryAll()
+#3 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(107): common\components\SMS::sendSmsNumber('<span class="st...')
+#4 [internal function]: frontend\controllers\JobsController->actionSendday('<span class="st...')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[<span class="s...')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.last_record' in 'on clause'
+The SQL being executed was: select a.*
+        from  clients a left join sms_done b on (a.id=b.client_id and a.last_record=b.record_id and b.type=5)
+        where a.deleted=0 and a.exception_5<>1 and a.last_visit between '2018-02-15 22:02:03' and '2018-02-16 22:02:08' and b.type is null' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'select a.*\n    ...')
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\work\OpenServer\domains\lali.git\common\components\SMS.php(161): yii\db\Command->queryAll()
+#3 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(107): common\components\SMS::sendSmsNumber('<span class="st...')
+#4 [internal function]: frontend\controllers\JobsController->actionSendday('<span class="st...')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[<span class="s...')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'a.last_record' in 'on clause'
+)
+
+2018-02-21 22:01:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'day' => '5'
+    'XDEBUG_SESSION_START' => '19229'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => 'mitbvtdcd6ovm4tcefnkv396s4'
+    '_csrf-frontend' => 'f794aa11fbe46f622e5989fb98f80ece1469f14d86662a9d5e19e8f4d2d3d278a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"HzVX5UjxhxYyY45SFPRXaUtcCsFJOLDC\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=mitbvtdcd6ovm4tcefnkv396s4; _csrf-frontend=f794aa11fbe46f622e5989fb98f80ece1469f14d86662a9d5e19e8f4d2d3d278a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22HzVX5UjxhxYyY45SFPRXaUtcCsFJOLDC%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '13985'
+    'REDIRECT_QUERY_STRING' => 'day=5&XDEBUG_SESSION_START=19229'
+    'REDIRECT_URL' => '/frontend/web/jobs/sendday'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'day=5&XDEBUG_SESSION_START=19229'
+    'REQUEST_URI' => '/jobs/sendday?day=5&XDEBUG_SESSION_START=19229'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1519228903.191
+    'REQUEST_TIME' => 1519228903
+    'argv' => [
+        0 => 'day=5&XDEBUG_SESSION_START=19229'
+    ]
+    'argc' => 1
+]
+2018-02-21 22:05:35 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.record_id' in 'on clause'' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\work\OpenServer\domains\lali.git\common\components\SMS.php(161): yii\db\Command->queryAll()
+#3 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(107): common\components\SMS::sendSmsNumber('<span class="st...')
+#4 [internal function]: frontend\controllers\JobsController->actionSendday('<span class="st...')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[<span class="s...')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.record_id' in 'on clause'
+The SQL being executed was: select a.*
+        from  clients a left join sms_done b on (a.id=b.client_id and a.last_record=b.record_id and b.type=5)
+        where a.deleted=0 and a.exception_5<>1 and a.last_visit between '2018-02-15 22:05:23' and '2018-02-16 22:05:25' and b.type is null' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'select a.*\n    ...')
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\work\OpenServer\domains\lali.git\common\components\SMS.php(161): yii\db\Command->queryAll()
+#3 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(107): common\components\SMS::sendSmsNumber('<span class="st...')
+#4 [internal function]: frontend\controllers\JobsController->actionSendday('<span class="st...')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[<span class="s...')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#9 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'b.record_id' in 'on clause'
+)
+
+2018-02-21 22:05:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'day' => '5'
+    'XDEBUG_SESSION_START' => '18808'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => 'mitbvtdcd6ovm4tcefnkv396s4'
+    '_csrf-frontend' => 'f794aa11fbe46f622e5989fb98f80ece1469f14d86662a9d5e19e8f4d2d3d278a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"HzVX5UjxhxYyY45SFPRXaUtcCsFJOLDC\";}'
+    'XDEBUG_SESSION' => '19229'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=mitbvtdcd6ovm4tcefnkv396s4; _csrf-frontend=f794aa11fbe46f622e5989fb98f80ece1469f14d86662a9d5e19e8f4d2d3d278a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22HzVX5UjxhxYyY45SFPRXaUtcCsFJOLDC%22%3B%7D; XDEBUG_SESSION=19229'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '14268'
+    'REDIRECT_QUERY_STRING' => 'day=5&XDEBUG_SESSION_START=18808'
+    'REDIRECT_URL' => '/frontend/web/jobs/sendday'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'day=5&XDEBUG_SESSION_START=18808'
+    'REQUEST_URI' => '/jobs/sendday?day=5&XDEBUG_SESSION_START=18808'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1519229107.91
+    'REQUEST_TIME' => 1519229107
+    'argv' => [
+        0 => 'day=5&XDEBUG_SESSION_START=18808'
+    ]
+    'argc' => 1
+]
+2018-03-09 22:01:43 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php:994
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(994): PDOStatement->execute()
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\ActiveRecord.php(243): yii\db\Command->execute()
+#2 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(778): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#3 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\ActiveRecord.php(587): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(649): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#5 D:\work\OpenServer\domains\lali.git\frontend\models\YclientsLogRecord.php(50): yii\db\BaseActiveRecord->save()
+#6 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(64): frontend\models\YclientsLogRecord::doParse()
+#7 [internal function]: frontend\controllers\JobsController->actionDoyclients()
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#10 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#11 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#12 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+The SQL being executed was: UPDATE `yclientslog` SET `done`=2 WHERE `id`=2694' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(1004): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `yclient...')
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\ActiveRecord.php(243): yii\db\Command->execute()
+#2 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(778): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#3 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\ActiveRecord.php(587): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(649): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#5 D:\work\OpenServer\domains\lali.git\frontend\models\YclientsLogRecord.php(50): yii\db\BaseActiveRecord->save()
+#6 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(64): frontend\models\YclientsLogRecord::doParse()
+#7 [internal function]: frontend\controllers\JobsController->actionDoyclients()
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#10 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#11 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#12 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2006
+    [2] => MySQL server has gone away
+)
+
+2018-03-09 21:56:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'XDEBUG_SESSION_START' => '15481'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '8966'
+    'REDIRECT_QUERY_STRING' => 'XDEBUG_SESSION_START=15481'
+    'REDIRECT_URL' => '/frontend/web/jobs/doyclients'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'XDEBUG_SESSION_START=15481'
+    'REQUEST_URI' => '/jobs/doyclients?XDEBUG_SESSION_START=15481'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1520610990.146
+    'REQUEST_TIME' => 1520610990
+    'argv' => [
+        0 => 'XDEBUG_SESSION_START=15481'
+    ]
+    'argc' => 1
+]
+2018-03-16 23:07:39 [127.0.0.1][1][mn1vma0a96u4o19942asr68vc4][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\User::role' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Component.php:148
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(288): yii\base\Component->__get('role')
+#1 D:\work\OpenServer\domains\lali.git\common\models\Access.php(30): yii\db\BaseActiveRecord->__get('role')
+#2 D:\work\OpenServer\domains\lali.git\common\models\Access.php(14): common\models\Access::getRole()
+#3 D:\work\OpenServer\domains\lali.git\frontend\controllers\SiteController.php(77): common\models\Access::isOper()
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#9 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-03-16 23:07:39 [127.0.0.1][1][mn1vma0a96u4o19942asr68vc4][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_csrf-frontend' => 'd2e826964fba33fb7e9208d1022e0430a86f5425a187d517a6cb776cf0d3aee1a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"z2ZdUiT0WQfNCEnvdbvW4WBsk-ExcbGS\";}'
+    'advanced-frontend' => 'mn1vma0a96u4o19942asr68vc4'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://lali.git/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _csrf-frontend=d2e826964fba33fb7e9208d1022e0430a86f5425a187d517a6cb776cf0d3aee1a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22z2ZdUiT0WQfNCEnvdbvW4WBsk-ExcbGS%22%3B%7D; advanced-frontend=mn1vma0a96u4o19942asr68vc4; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '7074'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1521220058.772
+    'REQUEST_TIME' => 1521220058
+    'argv' => []
+    'argc' => 0
+]
+2018-03-16 23:10:22 [127.0.0.1][1][mn1vma0a96u4o19942asr68vc4][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.laser' in 'where clause'' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\work\OpenServer\domains\lali.git\frontend\models\LcWatsApp.php(24): yii\db\Command->queryAll()
+#3 D:\work\OpenServer\domains\lali.git\frontend\views\lc\index.php(6): frontend\models\LcWatsApp::getRecords()
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(332): require('D:\\work\\OpenSer...')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[]')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[]', Object(frontend\controllers\LcController))
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[]', Object(frontend\controllers\LcController))
+#8 D:\work\OpenServer\domains\lali.git\frontend\controllers\LcController.php(47): yii\base\Controller->render('<span class="st...')
+#9 [internal function]: frontend\controllers\LcController->actionIndex()
+#10 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#11 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#12 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#13 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#14 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#16 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.laser' in 'where clause'
+The SQL being executed was: 
+SELECT a.resource_id,a.staff_name,a.appointed,a.services_id,a.client_phone,b.name,c.title
+FROM records a left join clients b on b.id=a.client_id
+	left join services c on trim(c.id)=a.services_id
+WHERE a.id IN (
+SELECT DISTINCT a.id
+FROM (
+SELECT a.*
+FROM records a
+WHERE appointed between '2018-02-01' and '2018-04-01' AND a.attendance=1 and a.deleted=0
+) a,services b
+WHERE INSTR(a.services_id,b.id)>0 AND b.laser='Y'
+)
+    ' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), '\nSELECT a.resou...')
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\work\OpenServer\domains\lali.git\frontend\models\LcWatsApp.php(24): yii\db\Command->queryAll()
+#3 D:\work\OpenServer\domains\lali.git\frontend\views\lc\index.php(6): frontend\models\LcWatsApp::getRecords()
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(332): require('D:\\work\\OpenSer...')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[]')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[]', Object(frontend\controllers\LcController))
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[]', Object(frontend\controllers\LcController))
+#8 D:\work\OpenServer\domains\lali.git\frontend\controllers\LcController.php(47): yii\base\Controller->render('<span class="st...')
+#9 [internal function]: frontend\controllers\LcController->actionIndex()
+#10 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#11 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#12 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#13 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#14 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#16 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'b.laser' in 'where clause'
+)
+
+2018-03-16 23:10:20 [127.0.0.1][1][mn1vma0a96u4o19942asr68vc4][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_csrf-frontend' => 'd2e826964fba33fb7e9208d1022e0430a86f5425a187d517a6cb776cf0d3aee1a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"z2ZdUiT0WQfNCEnvdbvW4WBsk-ExcbGS\";}'
+    'advanced-frontend' => 'mn1vma0a96u4o19942asr68vc4'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://lali.git/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _csrf-frontend=d2e826964fba33fb7e9208d1022e0430a86f5425a187d517a6cb776cf0d3aee1a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22z2ZdUiT0WQfNCEnvdbvW4WBsk-ExcbGS%22%3B%7D; advanced-frontend=mn1vma0a96u4o19942asr68vc4; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '7369'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1521220220.478
+    'REQUEST_TIME' => 1521220220
+    'argv' => []
+    'argc' => 0
+]
+2018-04-01 23:22:37 [127.0.0.1][1][41tis7onp2ssl6k7634lhj7dh2][error][Exception] exception 'Exception' with message 'DateInterval::__construct(): Unknown or bad format (PD)' in D:\work\OpenServer\domains\lali.git\common\components\Date.php:63
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\common\components\Date.php(63): DateInterval->__construct('PD')
+#1 D:\work\OpenServer\domains\lali.git\frontend\models\LcWatsApp.php(18): common\components\Date->subDays(NULL)
+#2 D:\work\OpenServer\domains\lali.git\frontend\views\lc\index.php(8): frontend\models\LcWatsApp::getRecords()
+#3 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(332): require('D:\\work\\OpenSer...')
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\work\\OpenSer...', Array)
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\work\\OpenSer...', Array, Object(frontend\controllers\LcController))
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\LcController))
+#7 D:\work\OpenServer\domains\lali.git\frontend\controllers\LcController.php(47): yii\base\Controller->render('index')
+#8 [internal function]: frontend\controllers\LcController->actionIndex()
+#9 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#12 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lc/index', Array)
+#13 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+2018-04-01 23:22:35 [127.0.0.1][1][41tis7onp2ssl6k7634lhj7dh2][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '41tis7onp2ssl6k7634lhj7dh2'
+    '_csrf-frontend' => '46fd66e5c269167d651f6804b1ac19fb13e2e272a441fa59ce5014ec428fc8e1a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"eS1dmgmvqSANaWvF8fxFxkA2TV9zi1kg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=41tis7onp2ssl6k7634lhj7dh2; _csrf-frontend=46fd66e5c269167d651f6804b1ac19fb13e2e272a441fa59ce5014ec428fc8e1a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22eS1dmgmvqSANaWvF8fxFxkA2TV9zi1kg%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '25154'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522603355.635
+    'REQUEST_TIME' => 1522603355
+    'argv' => []
+    'argc' => 0
+]
+2018-04-01 23:30:38 [127.0.0.1][1][41tis7onp2ssl6k7634lhj7dh2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "app/quality".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('app/quality', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-04-01 23:30:38 [127.0.0.1][1][41tis7onp2ssl6k7634lhj7dh2][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '41tis7onp2ssl6k7634lhj7dh2'
+    '_csrf-frontend' => '46fd66e5c269167d651f6804b1ac19fb13e2e272a441fa59ce5014ec428fc8e1a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"eS1dmgmvqSANaWvF8fxFxkA2TV9zi1kg\";}'
+    'advanced-backend' => '4mc1pl93us6sd08oi102h9i6d2'
+    '_csrf-backend' => '101883e4f72e53465bf208001930cf53c5b3240259912829e426e0dd6fb7cfc8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"GgY0F4lsafv8vPDU_91Ukme3mivdtZWT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://lali.git/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=41tis7onp2ssl6k7634lhj7dh2; _csrf-frontend=46fd66e5c269167d651f6804b1ac19fb13e2e272a441fa59ce5014ec428fc8e1a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22eS1dmgmvqSANaWvF8fxFxkA2TV9zi1kg%22%3B%7D; advanced-backend=4mc1pl93us6sd08oi102h9i6d2; _csrf-backend=101883e4f72e53465bf208001930cf53c5b3240259912829e426e0dd6fb7cfc8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22GgY0F4lsafv8vPDU_91Ukme3mivdtZWT%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '25824'
+    'REDIRECT_URL' => '/frontend/web/app/quality'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/app/quality'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522603837.606
+    'REQUEST_TIME' => 1522603837
+    'argv' => []
+    'argc' => 0
+]
+2018-04-03 23:02:03 [127.0.0.1][1][gsfsrd2bkonn3591nsf5tvlsj6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "app/quality".' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('app/quality', Array)
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-04-03 23:02:02 [127.0.0.1][1][gsfsrd2bkonn3591nsf5tvlsj6][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'a3a7uhjegf45eriqg55ifo9em4'
+    '_csrf-backend' => '18b85a29b9fe8c1aa178c17d44a05966d98404caee310d36ee2a7fa2881d062da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"V26xYIOMCKLcsV4YcgmAvyP4_jlv_qcZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://lali.git/admin/app/quality'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=a3a7uhjegf45eriqg55ifo9em4; _csrf-backend=18b85a29b9fe8c1aa178c17d44a05966d98404caee310d36ee2a7fa2881d062da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22V26xYIOMCKLcsV4YcgmAvyP4_jlv_qcZ%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '8775'
+    'REDIRECT_URL' => '/frontend/web/app/quality'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/app/quality'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1522774922.744
+    'REQUEST_TIME' => 1522774922
+    'argv' => []
+    'argc' => 0
+]
+2018-04-14 19:53:07 [127.0.0.1][1][rofe9laojf3764a4d9gj9gqln2][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lali.quality' doesn't exist' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\work\OpenServer\domains\lali.git\frontend\models\LcWatsApp.php(114): yii\db\Command->queryAll()
+#3 D:\work\OpenServer\domains\lali.git\frontend\views\lc\index.php(13): frontend\models\LcWatsApp->findLaserRecords()
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(332): require('D:\\work\\OpenSer...')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\LcController))
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\LcController))
+#8 D:\work\OpenServer\domains\lali.git\frontend\controllers\LcController.php(52): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: frontend\controllers\LcController->actionIndex()
+#10 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#11 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#12 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#13 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#14 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#16 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lali.quality' doesn't exist
+The SQL being executed was: 
+SELECT a.resource_id,a.staff_name,a.appointed,a.services_id,a.client_phone,b.name,c.title,ifnull(q.status,0) stat
+FROM records a left join clients b on b.id=a.client_id
+	left join services c on trim(c.id)=a.services_id
+    left join quality q on a.resource_id=q.record_id and q.typ=1
+WHERE a.id IN (
+SELECT DISTINCT a.id
+FROM (
+SELECT a.*
+FROM records a
+WHERE date(appointed)='2018-03-23' AND a.attendance=1 and a.deleted=0
+) a,services b
+WHERE INSTR(a.services_id,b.id)>0 AND b.laser='Y'
+)
+order by a.appointed
+    ' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), '\nSELECT a.resou...')
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\work\OpenServer\domains\lali.git\frontend\models\LcWatsApp.php(114): yii\db\Command->queryAll()
+#3 D:\work\OpenServer\domains\lali.git\frontend\views\lc\index.php(13): frontend\models\LcWatsApp->findLaserRecords()
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(332): require('D:\\work\\OpenSer...')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\LcController))
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\LcController))
+#8 D:\work\OpenServer\domains\lali.git\frontend\controllers\LcController.php(52): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: frontend\controllers\LcController->actionIndex()
+#10 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#11 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#12 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#13 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#14 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#16 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'lali.quality' doesn't exist
+)
+
+2018-04-14 19:53:06 [127.0.0.1][1][rofe9laojf3764a4d9gj9gqln2][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => 'rofe9laojf3764a4d9gj9gqln2'
+    '_csrf-frontend' => '7269ed3c0a9ea26394ca507660aaee1605a0c15ee874dc4fbae80089e7f904e8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ATyRuMDkmGhz0u5zs0L8v8ZzcYrOr_ue\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=rofe9laojf3764a4d9gj9gqln2; _csrf-frontend=7269ed3c0a9ea26394ca507660aaee1605a0c15ee874dc4fbae80089e7f904e8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ATyRuMDkmGhz0u5zs0L8v8ZzcYrOr_ue%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '3298'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1523713986.108
+    'REQUEST_TIME' => 1523713986
+    'argv' => []
+    'argc' => 0
+]
+2018-05-21 20:46:31 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function format() on a non-object' in D:\work\OpenServer\domains\lali.git\common\components\SMS.php:86
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(110): common\components\SMS->getMessageText()
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): frontend\controllers\JobsController->actionTest()
+#2 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#3 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#7 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-05-21 20:46:21 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '1547'
+    'REDIRECT_URL' => '/frontend/web/jobs/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/jobs/test'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526913980.637
+    'REQUEST_TIME' => 1526913980
+    'argv' => []
+    'argc' => 0
+]
+2018-05-21 20:47:06 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function format() on a non-object' in D:\work\OpenServer\domains\lali.git\common\components\SMS.php:86
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(111): common\components\SMS->getMessageText()
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): frontend\controllers\JobsController->actionTest()
+#2 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#3 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#7 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-05-21 20:46:55 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '1591'
+    'REDIRECT_URL' => '/frontend/web/jobs/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/jobs/test'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526914015.54
+    'REQUEST_TIME' => 1526914015
+    'argv' => []
+    'argc' => 0
+]
+2018-05-21 20:48:05 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\ClientsRecord::exception_1' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Component.php:148
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(288): yii\base\Component->__get('exception_1')
+#1 D:\work\OpenServer\domains\lali.git\common\components\SMS.php(77): yii\db\BaseActiveRecord->__get('exception_1')
+#2 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(110): common\components\SMS->setRecord(4533)
+#3 [internal function]: frontend\controllers\JobsController->actionTest()
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('test', Array)
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('jobs/test', Array)
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2018-05-21 20:48:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '1676'
+    'REDIRECT_URL' => '/frontend/web/jobs/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/jobs/test'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526914084.923
+    'REQUEST_TIME' => 1526914084
+    'argv' => []
+    'argc' => 0
+]
+2018-05-21 20:52:57 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\SMSSettings::lat' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Component.php:148
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(288): yii\base\Component->__get('lat')
+#1 D:\work\OpenServer\domains\lali.git\common\components\SMS.php(45): yii\db\BaseActiveRecord->__get('lat')
+#2 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(110): common\components\SMS->setNumber(1)
+#3 [internal function]: frontend\controllers\JobsController->actionTest()
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('test', Array)
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('jobs/test', Array)
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2018-05-21 20:52:50 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'XDEBUG_SESSION' => '18976'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=18976'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '2027'
+    'REDIRECT_URL' => '/frontend/web/jobs/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/jobs/test'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526914370.682
+    'REQUEST_TIME' => 1526914370
+    'argv' => []
+    'argc' => 0
+]
+2018-05-21 21:14:36 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Cannot use object of type DateInterval as array' in D:\work\OpenServer\domains\lali.git\common\components\SMS.php:107
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\frontend\controllers\JobsController.php(112): common\components\SMS->getMessageText()
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): frontend\controllers\JobsController->actionTest()
+#2 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#3 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#7 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-05-21 21:14:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'XDEBUG_SESSION' => '18976'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=18976'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '3542'
+    'REDIRECT_URL' => '/frontend/web/jobs/test'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/jobs/test'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1526915675.669
+    'REQUEST_TIME' => 1526915675
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 20:00:11 [127.0.0.1][1][3svbpjfqb9h39ml6as7qc90c81][error][Exception] exception 'Exception' with message 'DateInterval::__construct(): Unknown or bad format (PD)' in D:\work\OpenServer\domains\lali.git\common\components\Date.php:68
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\common\components\Date.php(68): DateInterval->__construct('PD')
+#1 D:\work\OpenServer\domains\lali.git\frontend\models\LcWatsApp.php(40): common\components\Date->subDays('')
+#2 D:\work\OpenServer\domains\lali.git\frontend\controllers\LcController.php(51): frontend\models\LcWatsApp->init(NULL)
+#3 [internal function]: frontend\controllers\LcController->actionIndex()
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lc/index', Array)
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2018-05-26 20:00:10 [127.0.0.1][1][3svbpjfqb9h39ml6as7qc90c81][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'ari7l70r9kk0ctvvc8sgq97dj1'
+    '_csrf-backend' => 'a80d260be8cd0748b0cbebe3786e303e28353e1caceeecd9e3674d566a5b3529a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"TTT2ekO3YKyGjVmf-UGwe9fmgmG-eK4A\";}'
+    'XDEBUG_SESSION' => '19015'
+    'advanced-frontend' => '3svbpjfqb9h39ml6as7qc90c81'
+    '_csrf-frontend' => '09f66e9dbbed13f1e85d4e3eb772be4044ae618e24a9b92152421ab82c725794a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"m57z6QI479z3J9Dh99sA5C3CzHJKV7aB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=ari7l70r9kk0ctvvc8sgq97dj1; _csrf-backend=a80d260be8cd0748b0cbebe3786e303e28353e1caceeecd9e3674d566a5b3529a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22TTT2ekO3YKyGjVmf-UGwe9fmgmG-eK4A%22%3B%7D; XDEBUG_SESSION=19015; advanced-frontend=3svbpjfqb9h39ml6as7qc90c81; _csrf-frontend=09f66e9dbbed13f1e85d4e3eb772be4044ae618e24a9b92152421ab82c725794a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22m57z6QI479z3J9Dh99sA5C3CzHJKV7aB%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '14942'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527343210.737
+    'REQUEST_TIME' => 1527343210
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 20:09:37 [127.0.0.1][1][3svbpjfqb9h39ml6as7qc90c81][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDOStatement::execute(): MySQL server has gone away' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('', '')
+#1 D:\work\OpenServer\domains\lali.git\frontend\models\LcWatsApp.php(96): yii\db\Command->queryAll('')
+#2 D:\work\OpenServer\domains\lali.git\frontend\views\lc\index.php(77): frontend\models\LcWatsApp::getServices('')
+#3 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(332): ::unknown()
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('', '')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('', '', '')
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('', '', '')
+#7 D:\work\OpenServer\domains\lali.git\frontend\controllers\LcController.php(52): yii\base\Controller->render('', '')
+#8 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): frontend\controllers\LcController->actionIndex()
+#9 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#10 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#11 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#12 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#13 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#14 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'PDOStatement::execute(): MySQL server has gone away
+The SQL being executed was: 
+select title from services a
+where a.id in (1504101)' in D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(yii\base\ErrorException), '\nselect title f...')
+#1 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\work\OpenServer\domains\lali.git\frontend\models\LcWatsApp.php(96): yii\db\Command->queryAll()
+#3 D:\work\OpenServer\domains\lali.git\frontend\views\lc\index.php(77): frontend\models\LcWatsApp::getServices('1504101')
+#4 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(332): require('D:\\work\\OpenSer...')
+#5 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\work\\OpenSer...', Array)
+#6 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\work\\OpenSer...', Array, Object(frontend\controllers\LcController))
+#7 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\LcController))
+#8 D:\work\OpenServer\domains\lali.git\frontend\controllers\LcController.php(52): yii\base\Controller->render('index', Array)
+#9 [internal function]: frontend\controllers\LcController->actionIndex()
+#10 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#13 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lc/index', Array)
+#14 D:\work\OpenServer\domains\lali.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\work\OpenServer\domains\lali.git\frontend\web\index.php(17): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2018-05-26 20:08:34 [127.0.0.1][1][3svbpjfqb9h39ml6as7qc90c81][info][application] $_GET = [
+    'dat' => '20180525'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'ari7l70r9kk0ctvvc8sgq97dj1'
+    '_csrf-backend' => 'a80d260be8cd0748b0cbebe3786e303e28353e1caceeecd9e3674d566a5b3529a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"TTT2ekO3YKyGjVmf-UGwe9fmgmG-eK4A\";}'
+    'XDEBUG_SESSION' => '19015'
+    'advanced-frontend' => '3svbpjfqb9h39ml6as7qc90c81'
+    '_csrf-frontend' => '09f66e9dbbed13f1e85d4e3eb772be4044ae618e24a9b92152421ab82c725794a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"m57z6QI479z3J9Dh99sA5C3CzHJKV7aB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://lali.git/lc/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=ari7l70r9kk0ctvvc8sgq97dj1; _csrf-backend=a80d260be8cd0748b0cbebe3786e303e28353e1caceeecd9e3674d566a5b3529a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22TTT2ekO3YKyGjVmf-UGwe9fmgmG-eK4A%22%3B%7D; XDEBUG_SESSION=19015; advanced-frontend=3svbpjfqb9h39ml6as7qc90c81; _csrf-frontend=09f66e9dbbed13f1e85d4e3eb772be4044ae618e24a9b92152421ab82c725794a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22m57z6QI479z3J9Dh99sA5C3CzHJKV7aB%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '15548'
+    'REDIRECT_QUERY_STRING' => 'dat=20180525'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'dat=20180525'
+    'REQUEST_URI' => '/lc/index?dat=20180525'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527343714.546
+    'REQUEST_TIME' => 1527343714
+    'argv' => [
+        0 => 'dat=20180525'
+    ]
+    'argc' => 1
+]
+2018-05-26 20:09:38 [127.0.0.1][1][3svbpjfqb9h39ml6as7qc90c81][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method frontend\models\LcWatsApp::tableName()' in xdebug://debug-eval:1
+Stack trace:
+#0 {main}
+2018-05-26 20:08:34 [127.0.0.1][1][3svbpjfqb9h39ml6as7qc90c81][info][application] $_GET = [
+    'dat' => '20180525'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'ari7l70r9kk0ctvvc8sgq97dj1'
+    '_csrf-backend' => 'a80d260be8cd0748b0cbebe3786e303e28353e1caceeecd9e3674d566a5b3529a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"TTT2ekO3YKyGjVmf-UGwe9fmgmG-eK4A\";}'
+    'XDEBUG_SESSION' => '19015'
+    'advanced-frontend' => '3svbpjfqb9h39ml6as7qc90c81'
+    '_csrf-frontend' => '09f66e9dbbed13f1e85d4e3eb772be4044ae618e24a9b92152421ab82c725794a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"m57z6QI479z3J9Dh99sA5C3CzHJKV7aB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'lali.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://lali.git/lc/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=ari7l70r9kk0ctvvc8sgq97dj1; _csrf-backend=a80d260be8cd0748b0cbebe3786e303e28353e1caceeecd9e3674d566a5b3529a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22TTT2ekO3YKyGjVmf-UGwe9fmgmG-eK4A%22%3B%7D; XDEBUG_SESSION=19015; advanced-frontend=3svbpjfqb9h39ml6as7qc90c81; _csrf-frontend=09f66e9dbbed13f1e85d4e3eb772be4044ae618e24a9b92152421ab82c725794a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22m57z6QI479z3J9Dh99sA5C3CzHJKV7aB%22%3B%7D'
+    'PATH' => 'D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\work\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\work\\OpenServer\\modules\\imagemagick;D:\\work\\OpenServer\\modules\\php\\PHP-5.5;D:\\work\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\work\\OpenServer\\modules\\http\\Apache-2.4;D:\\work\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'lali.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/OpenServer/domains/lali.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/work/OpenServer/domains/lali.git/frontend/web/index.php'
+    'REMOTE_PORT' => '15548'
+    'REDIRECT_QUERY_STRING' => 'dat=20180525'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'dat=20180525'
+    'REQUEST_URI' => '/lc/index?dat=20180525'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527343714.546
+    'REQUEST_TIME' => 1527343714
+    'argv' => [
+        0 => 'dat=20180525'
+    ]
+    'argc' => 1
+]
