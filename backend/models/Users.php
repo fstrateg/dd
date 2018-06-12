@@ -1,6 +1,7 @@
 <?php
 namespace backend\models;
 
+use Yii;
 use yii\db\ActiveRecord;
 
 /**
@@ -11,6 +12,7 @@ use yii\db\ActiveRecord;
  * @property string $password_hash
  * @property string $password_reset_token
  * @property string $email
+ * @property string $role
  * @property string $auth_key
  * @property integer $status
  * @property integer $created_at
@@ -19,18 +21,28 @@ use yii\db\ActiveRecord;
  */
 class Users extends ActiveRecord
 {
+    var $npassword;
+    var $cpassword;
+
     public static function tableName()
     {
         return '{{%user}}';
     }
 
+    public function rules()
+    {
+        return [
+            [['username','role'],'required']
+        ];
+    }
+
     public function attributeLabels()
     {
         return [
-            [
-                'username'=>'Пользователь',
-                'password'=>'Пароль'
-            ]
+                'username'=>'Имя пользователя',
+                'npassword'=>'Пароль',
+                'cpassword'=>'Повтор пароля',
+                'role'=>'Роль'
         ];
     }
 

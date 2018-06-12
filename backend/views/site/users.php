@@ -8,7 +8,7 @@ $this->title = 'Пользователи';
 ?>
 <div class="site-index">
     <?
-    echo Html::a('<span class="glyphicon glyphicon-pencil"></span> Добавить',['city','m'=>'add'],['class'=>'btn btn-success']);
+    echo Html::a('<span class="glyphicon glyphicon-pencil"></span> Добавить',['users','m'=>'add'],['class'=>'btn btn-success']);
     echo GridView::widget([
         // полученные данные
         'dataProvider' => $data,
@@ -46,14 +46,14 @@ $this->title = 'Пользователи';
                 'template' => '{update}{delete}',
                 'buttons' => [
                     'update' => function ($url, $model, $key) {
-                        $url=Url::to(['city','m'=>'update','id'=>$key]);
+                        $url=Url::to(['users','m'=>'update','id'=>$key]);
                         return Html::a('<span class="glyphicon glyphicon-pencil"></span>', $url, [
                             'title' => 'Редактировать',
                             'data-pjax' => '0',
                         ]).' ';
                     },
                     'delete' => function ($url, $model, $key) {
-                        $url=Url::to(['city','m'=>'delete','id'=>$key]);
+                        $url=Url::to(['users','m'=>'delete','id'=>$key]);
                         return Html::a('<span class="glyphicon glyphicon-remove"></span>', $url, [
                             'title' => 'Удалить',
                             'data-confirm' => 'Вы уверены что хотите удалить?',

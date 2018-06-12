@@ -109,9 +109,20 @@ class SiteController extends Controller
         return $this->goHome();
     }
 
-    public function actionUsers()
+    public function actionUsers($m='')
     {
-        //$model=Users::find()->orderBy("username")->all();
+        switch($m)
+        {
+            case 'add':
+                return $this->UsersAdd();
+
+        }
+
+        return $this->UsersIndex();
+    }
+
+    private function UsersIndex()
+    {
         $dataProvider = new ActiveDataProvider([
             'query' => Users::find(),
             'sort' => [ // сортировка по умолчанию
@@ -122,6 +133,11 @@ class SiteController extends Controller
             ],
         ]);
         return $this->render('users',['data'=>$dataProvider]);
+    }
 
+    private function UsersAdd()
+    {
+        $model=new Users();
+        return $this->render('usersForm',['model'=>$model]);
     }
 }
