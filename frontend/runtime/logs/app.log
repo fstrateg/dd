@@ -2853,3 +2853,855 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2018-06-12 23:02:28 [127.0.0.1][1][fr3uu9idvmcshdv7d2m7m02pk7][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-12 23:02:27 [127.0.0.1][1][fr3uu9idvmcshdv7d2m7m02pk7][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => 'fr3uu9idvmcshdv7d2m7m02pk7'
+    '_csrf-frontend' => 'da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r\";}'
+    'advanced-backend' => 'vedab8aojtnbt5mn3v3d7n40q7'
+    '_csrf-backend' => 'c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx\";}'
+    'XDEBUG_SESSION' => '12572'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=fr3uu9idvmcshdv7d2m7m02pk7; _csrf-frontend=da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r%22%3B%7D; advanced-backend=vedab8aojtnbt5mn3v3d7n40q7; _csrf-backend=c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx%22%3B%7D; XDEBUG_SESSION=12572'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '49949'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528822947.418
+    'REQUEST_TIME' => 1528822947
+    'argv' => []
+    'argc' => 0
+]
+2018-06-12 23:04:05 [127.0.0.1][1][fr3uu9idvmcshdv7d2m7m02pk7][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-12 23:04:04 [127.0.0.1][1][fr3uu9idvmcshdv7d2m7m02pk7][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => 'fr3uu9idvmcshdv7d2m7m02pk7'
+    '_csrf-frontend' => 'da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r\";}'
+    'advanced-backend' => 'vedab8aojtnbt5mn3v3d7n40q7'
+    '_csrf-backend' => 'c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx\";}'
+    'XDEBUG_SESSION' => '18983'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=fr3uu9idvmcshdv7d2m7m02pk7; _csrf-frontend=da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r%22%3B%7D; advanced-backend=vedab8aojtnbt5mn3v3d7n40q7; _csrf-backend=c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx%22%3B%7D; XDEBUG_SESSION=18983'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '49991'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528823044.418
+    'REQUEST_TIME' => 1528823044
+    'argv' => []
+    'argc' => 0
+]
+2018-06-12 23:05:49 [127.0.0.1][1][fr3uu9idvmcshdv7d2m7m02pk7][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-12 23:05:48 [127.0.0.1][1][fr3uu9idvmcshdv7d2m7m02pk7][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => 'fr3uu9idvmcshdv7d2m7m02pk7'
+    '_csrf-frontend' => 'da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r\";}'
+    'advanced-backend' => 'vedab8aojtnbt5mn3v3d7n40q7'
+    '_csrf-backend' => 'c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx\";}'
+    'XDEBUG_SESSION' => '19390'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=fr3uu9idvmcshdv7d2m7m02pk7; _csrf-frontend=da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r%22%3B%7D; advanced-backend=vedab8aojtnbt5mn3v3d7n40q7; _csrf-backend=c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx%22%3B%7D; XDEBUG_SESSION=19390'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '50028'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528823148.081
+    'REQUEST_TIME' => 1528823148
+    'argv' => []
+    'argc' => 0
+]
+2018-06-12 23:06:04 [127.0.0.1][1][fr3uu9idvmcshdv7d2m7m02pk7][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-12 23:06:03 [127.0.0.1][1][fr3uu9idvmcshdv7d2m7m02pk7][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => 'fr3uu9idvmcshdv7d2m7m02pk7'
+    '_csrf-frontend' => 'da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r\";}'
+    'advanced-backend' => 'vedab8aojtnbt5mn3v3d7n40q7'
+    '_csrf-backend' => 'c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx\";}'
+    'XDEBUG_SESSION' => '10261'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=fr3uu9idvmcshdv7d2m7m02pk7; _csrf-frontend=da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r%22%3B%7D; advanced-backend=vedab8aojtnbt5mn3v3d7n40q7; _csrf-backend=c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx%22%3B%7D; XDEBUG_SESSION=10261'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '50029'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528823162.897
+    'REQUEST_TIME' => 1528823162
+    'argv' => []
+    'argc' => 0
+]
+2018-06-12 23:13:09 [127.0.0.1][1][9a0pl4ctgsb606ci8q6vob9gf3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-12 23:13:08 [127.0.0.1][1][9a0pl4ctgsb606ci8q6vob9gf3][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_csrf-frontend' => 'da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r\";}'
+    'advanced-backend' => 'vedab8aojtnbt5mn3v3d7n40q7'
+    '_csrf-backend' => 'c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx\";}'
+    'XDEBUG_SESSION' => '16611'
+    'advanced-frontend' => '9a0pl4ctgsb606ci8q6vob9gf3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _csrf-frontend=da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r%22%3B%7D; advanced-backend=vedab8aojtnbt5mn3v3d7n40q7; _csrf-backend=c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx%22%3B%7D; XDEBUG_SESSION=16611; advanced-frontend=9a0pl4ctgsb606ci8q6vob9gf3'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '50179'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528823588.234
+    'REQUEST_TIME' => 1528823588
+    'argv' => []
+    'argc' => 0
+]
+2018-06-12 23:14:53 [127.0.0.1][1][9a0pl4ctgsb606ci8q6vob9gf3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-12 23:14:52 [127.0.0.1][1][9a0pl4ctgsb606ci8q6vob9gf3][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_csrf-frontend' => 'da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r\";}'
+    '_csrf-backend' => 'c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx\";}'
+    'advanced-frontend' => '9a0pl4ctgsb606ci8q6vob9gf3'
+    'advanced-backend' => '6jbc2vba3h3ov6of93793jv227'
+    'XDEBUG_SESSION' => '18062'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _csrf-frontend=da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r%22%3B%7D; _csrf-backend=c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx%22%3B%7D; advanced-frontend=9a0pl4ctgsb606ci8q6vob9gf3; advanced-backend=6jbc2vba3h3ov6of93793jv227; XDEBUG_SESSION=18062'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '50235'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528823692.319
+    'REQUEST_TIME' => 1528823692
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 17:49:16 [127.0.0.1][1][tmo5caukrglk5eguslmqvsb9n5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-13 17:49:14 [127.0.0.1][1][tmo5caukrglk5eguslmqvsb9n5][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'ovdnfpur7ruit90baing0751m4'
+    '_csrf-backend' => '39fa67ba133d4c6971e03fd5dd831ed052373332fde5b1c3e46def140c1b344ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"z0TJBk5hslkZOFAKq6DqY9_xZw4B9fqN\";}'
+    'XDEBUG_SESSION' => '11555'
+    'advanced-frontend' => 'tmo5caukrglk5eguslmqvsb9n5'
+    '_csrf-frontend' => '46cef3cda229b4eb23837b1d452b6583af226b73e568c7dbf21520aca7d3f94ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"odEeWsikHY4EH27N0N9H6hvNvJupCAUP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=ovdnfpur7ruit90baing0751m4; _csrf-backend=39fa67ba133d4c6971e03fd5dd831ed052373332fde5b1c3e46def140c1b344ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22z0TJBk5hslkZOFAKq6DqY9_xZw4B9fqN%22%3B%7D; XDEBUG_SESSION=11555; advanced-frontend=tmo5caukrglk5eguslmqvsb9n5; _csrf-frontend=46cef3cda229b4eb23837b1d452b6583af226b73e568c7dbf21520aca7d3f94ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22odEeWsikHY4EH27N0N9H6hvNvJupCAUP%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '53873'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528890554.793
+    'REQUEST_TIME' => 1528890554
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 20:55:47 [127.0.0.1][1][vpo3cqa5rjthmm9osnu949rns7][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-13 20:55:45 [127.0.0.1][1][vpo3cqa5rjthmm9osnu949rns7][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => '76o9rseftltaec2bv6oeepa2g0'
+    '_csrf-backend' => '6ea283d513f47cc01f026caa05f7a8971a2d5aa6feb9789d1fa4a4222ec7cd8ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"00I9p_bvkaKldnoJ3ZSsX8RhO-YCD3I5\";}'
+    'XDEBUG_SESSION' => '13272'
+    'advanced-frontend' => 'vpo3cqa5rjthmm9osnu949rns7'
+    '_csrf-frontend' => '88b53eb2aed3dbfe7ecfa19436c5c00a231651e1bd95c380a0649c0658687913a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KNOVC-c58u5pZnKnmQ8JmHWqG6C0KN6R\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=76o9rseftltaec2bv6oeepa2g0; _csrf-backend=6ea283d513f47cc01f026caa05f7a8971a2d5aa6feb9789d1fa4a4222ec7cd8ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2200I9p_bvkaKldnoJ3ZSsX8RhO-YCD3I5%22%3B%7D; XDEBUG_SESSION=13272; advanced-frontend=vpo3cqa5rjthmm9osnu949rns7; _csrf-frontend=88b53eb2aed3dbfe7ecfa19436c5c00a231651e1bd95c380a0649c0658687913a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KNOVC-c58u5pZnKnmQ8JmHWqG6C0KN6R%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '49899'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528901745.804
+    'REQUEST_TIME' => 1528901745
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 22:43:51 [127.0.0.1][1][vpo3cqa5rjthmm9osnu949rns7][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-13 22:43:50 [127.0.0.1][1][vpo3cqa5rjthmm9osnu949rns7][info][application] $_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => '76o9rseftltaec2bv6oeepa2g0'
+    '_csrf-backend' => '6ea283d513f47cc01f026caa05f7a8971a2d5aa6feb9789d1fa4a4222ec7cd8ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"00I9p_bvkaKldnoJ3ZSsX8RhO-YCD3I5\";}'
+    'advanced-frontend' => 'vpo3cqa5rjthmm9osnu949rns7'
+    '_csrf-frontend' => '88b53eb2aed3dbfe7ecfa19436c5c00a231651e1bd95c380a0649c0658687913a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KNOVC-c58u5pZnKnmQ8JmHWqG6C0KN6R\";}'
+    'XDEBUG_SESSION' => '18986'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=76o9rseftltaec2bv6oeepa2g0; _csrf-backend=6ea283d513f47cc01f026caa05f7a8971a2d5aa6feb9789d1fa4a4222ec7cd8ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2200I9p_bvkaKldnoJ3ZSsX8RhO-YCD3I5%22%3B%7D; advanced-frontend=vpo3cqa5rjthmm9osnu949rns7; _csrf-frontend=88b53eb2aed3dbfe7ecfa19436c5c00a231651e1bd95c380a0649c0658687913a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KNOVC-c58u5pZnKnmQ8JmHWqG6C0KN6R%22%3B%7D; XDEBUG_SESSION=18986'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '51065'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528908230.357
+    'REQUEST_TIME' => 1528908230
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 22:47:55 [127.0.0.1][1][vpo3cqa5rjthmm9osnu949rns7][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-13 22:47:54 [127.0.0.1][1][vpo3cqa5rjthmm9osnu949rns7][info][application] $_COOKIE = [
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_csrf-backend' => '6ea283d513f47cc01f026caa05f7a8971a2d5aa6feb9789d1fa4a4222ec7cd8ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"00I9p_bvkaKldnoJ3ZSsX8RhO-YCD3I5\";}'
+    'advanced-frontend' => 'vpo3cqa5rjthmm9osnu949rns7'
+    '_csrf-frontend' => '88b53eb2aed3dbfe7ecfa19436c5c00a231651e1bd95c380a0649c0658687913a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KNOVC-c58u5pZnKnmQ8JmHWqG6C0KN6R\";}'
+    'XDEBUG_SESSION' => '18986'
+    'advanced-backend' => 'ekrtkehs8m3vqd0mti3ce3ukm0'
+    '_identity-backend' => '65e31d8b657f0ef412d25e7e69dd5172c368d4f7b0a76deebefc09ca50616623a:2:{i:0;s:17:\"_identity-backend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _csrf-backend=6ea283d513f47cc01f026caa05f7a8971a2d5aa6feb9789d1fa4a4222ec7cd8ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2200I9p_bvkaKldnoJ3ZSsX8RhO-YCD3I5%22%3B%7D; advanced-frontend=vpo3cqa5rjthmm9osnu949rns7; _csrf-frontend=88b53eb2aed3dbfe7ecfa19436c5c00a231651e1bd95c380a0649c0658687913a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KNOVC-c58u5pZnKnmQ8JmHWqG6C0KN6R%22%3B%7D; XDEBUG_SESSION=18986; advanced-backend=ekrtkehs8m3vqd0mti3ce3ukm0; _identity-backend=65e31d8b657f0ef412d25e7e69dd5172c368d4f7b0a76deebefc09ca50616623a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '51362'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528908473.974
+    'REQUEST_TIME' => 1528908473
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 23:01:08 [127.0.0.1][2][9c9su03dsbqdbq7678k67pshj6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-13 23:01:07 [127.0.0.1][2][9c9su03dsbqdbq7678k67pshj6][info][application] $_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => 'mnq96iilbni113nmo2j25dcj25'
+    '_csrf-frontend' => 'dcb4afc855e97565cde83d46f79596b583913383ea80a64310f773d267b38152a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"AwGp7QvAjBRUdLEF31lD34ref5dkC6Ps\";}'
+    'advanced-frontend' => '9c9su03dsbqdbq7678k67pshj6'
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=mnq96iilbni113nmo2j25dcj25; _csrf-frontend=dcb4afc855e97565cde83d46f79596b583913383ea80a64310f773d267b38152a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22AwGp7QvAjBRUdLEF31lD34ref5dkC6Ps%22%3B%7D; advanced-frontend=9c9su03dsbqdbq7678k67pshj6; _identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '53035'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909267.375
+    'REQUEST_TIME' => 1528909267
+    'argv' => []
+    'argc' => 0
+]
+2018-06-14 22:27:37 [127.0.0.1][2][dendi3lobd6d67qm7takql6694][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-14 22:27:35 [127.0.0.1][2][dendi3lobd6d67qm7takql6694][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'XDEBUG_SESSION' => '15206'
+    'advanced-frontend' => 'dendi3lobd6d67qm7takql6694'
+    '_csrf-frontend' => '7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"rs-opTBGQimUjVUtbMgFTyygRpiPkK8M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=15206; advanced-frontend=dendi3lobd6d67qm7takql6694; _csrf-frontend=7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22rs-opTBGQimUjVUtbMgFTyygRpiPkK8M%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '50743'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528993655.767
+    'REQUEST_TIME' => 1528993655
+    'argv' => []
+    'argc' => 0
+]
+2018-06-16 18:48:02 [127.0.0.1][2][3otikfi6liokvjv7c9d07962a6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\LcWatsApp' not found' in H:\OpenServer\domains\dd.git\frontend\controllers\LcController.php:50
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 H:\OpenServer\domains\dd.git\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2018-06-16 18:48:01 [127.0.0.1][2][3otikfi6liokvjv7c9d07962a6][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-frontend' => '3otikfi6liokvjv7c9d07962a6'
+    '_csrf-frontend' => 'cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9vxccxjWLWQITt2k1sQig0uSvM7GIoNt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; _identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-frontend=3otikfi6liokvjv7c9d07962a6; _csrf-frontend=cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229vxccxjWLWQITt2k1sQig0uSvM7GIoNt%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/frontend/web/index.php'
+    'REMOTE_PORT' => '50603'
+    'REDIRECT_URL' => '/frontend/web/lc/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lc/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1529153281.316
+    'REQUEST_TIME' => 1529153281
+    'argv' => []
+    'argc' => 0
+]

@@ -5025,3 +5025,2513 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2018-06-12 23:18:47 [127.0.0.1][1][6jbc2vba3h3ov6of93793jv227][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\Html' not found' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:146
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): backend\controllers\SiteController->actionUsers('')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#5 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#6 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2018-06-12 23:16:23 [127.0.0.1][1][6jbc2vba3h3ov6of93793jv227][info][application] $_GET = [
+    'm' => 'add'
+]
+
+$_POST = [
+    '_csrf-backend' => 'BsABpKYR5eVuE3I1vfvYIzfiShCAlVY_NXmKK-CYOo9TuFD9k0uXrx5ABlnIz61JcqF6ROXvG1gYHelvp_Nd9w=='
+    'Users' => [
+        'username' => 'Alex'
+        'email' => ''
+        'npassword' => 'bynthytn'
+        'cpassword' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_csrf-frontend' => 'da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r\";}'
+    '_csrf-backend' => 'c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx\";}'
+    'advanced-frontend' => '9a0pl4ctgsb606ci8q6vob9gf3'
+    'advanced-backend' => '6jbc2vba3h3ov6of93793jv227'
+    'XDEBUG_SESSION' => '18062'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '201'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dd.git'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/users?m=add'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _csrf-frontend=da02122704f33ccf00efa70ee6d1a9873be059bceb1ac829d97f1883ed18549ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BhBYoIO9RxvFH8lH2bsK1bt0wTpI8V0r%22%3B%7D; _csrf-backend=c67d9d7a26f2bf23c890113eeae9a097e6d73200f07258d156a0b93d64765351a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22UxQY5ZrJpStlu4ujEC0TezMg-dcDGkgx%22%3B%7D; advanced-frontend=9a0pl4ctgsb606ci8q6vob9gf3; advanced-backend=6jbc2vba3h3ov6of93793jv227; XDEBUG_SESSION=18062'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50255'
+    'REDIRECT_QUERY_STRING' => 'm=add'
+    'REDIRECT_URL' => '/admin/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'm=add'
+    'REQUEST_URI' => '/admin/users?m=add'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528823783.889
+    'REQUEST_TIME' => 1528823783
+    'argv' => [
+        0 => 'm=add'
+    ]
+    'argc' => 1
+]
+2018-06-13 17:03:34 [127.0.0.1][1][ovdnfpur7ruit90baing0751m4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\Url' not found' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:145
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): backend\controllers\SiteController->actionUsers()
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#6 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2018-06-13 17:03:33 [127.0.0.1][1][ovdnfpur7ruit90baing0751m4][info][application] $_GET = [
+    'm' => 'add'
+]
+
+$_POST = [
+    '_csrf-backend' => 'U7gIAwc0UehrZTH00Qs13Jy5ZpOZvYkkw7pszCYP9fwpiFxJRV9kgBgJWq6eTXSX7Y8i4sCE1lyZzViOH2mEsg=='
+    'Users' => [
+        'username' => 'Иван'
+        'email' => '123'
+        'role' => 'oper'
+        'npassword' => ''
+        'cpassword' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'ovdnfpur7ruit90baing0751m4'
+    '_csrf-backend' => '39fa67ba133d4c6971e03fd5dd831ed052373332fde5b1c3e46def140c1b344ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"z0TJBk5hslkZOFAKq6DqY9_xZw4B9fqN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '237'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dd.git'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/users?m=add'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=ovdnfpur7ruit90baing0751m4; _csrf-backend=39fa67ba133d4c6971e03fd5dd831ed052373332fde5b1c3e46def140c1b344ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22z0TJBk5hslkZOFAKq6DqY9_xZw4B9fqN%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50773'
+    'REDIRECT_QUERY_STRING' => 'm=add'
+    'REDIRECT_URL' => '/admin/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'm=add'
+    'REQUEST_URI' => '/admin/users?m=add'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528887813.529
+    'REQUEST_TIME' => 1528887813
+    'argv' => [
+        0 => 'm=add'
+    ]
+    'argc' => 1
+]
+2018-06-13 17:31:48 [127.0.0.1][1][ovdnfpur7ruit90baing0751m4][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Alexeym78@mail.ru' for key 'email'' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php:994
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php(994): PDOStatement->execute()
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveRecord.php(243): yii\db\Command->execute()
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(778): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveRecord.php(587): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(649): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#5 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(168): yii\db\BaseActiveRecord->save()
+#6 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(121): backend\controllers\SiteController->UsersUpdate()
+#7 [internal function]: backend\controllers\SiteController->actionUsers('<span class="st...')
+#8 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[<span class="s...')
+#9 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#10 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#11 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#12 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Alexeym78@mail.ru' for key 'email'
+The SQL being executed was: UPDATE `user` SET `email`='Alexeym78@mail.ru' WHERE `id`=2' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php(1004): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `user` S...')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveRecord.php(243): yii\db\Command->execute()
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(778): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveRecord.php(587): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(649): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#5 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(168): yii\db\BaseActiveRecord->save()
+#6 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(121): backend\controllers\SiteController->UsersUpdate()
+#7 [internal function]: backend\controllers\SiteController->actionUsers('<span class="st...')
+#8 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[<span class="s...')
+#9 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#10 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#11 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#12 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'Alexeym78@mail.ru' for key 'email'
+)
+
+2018-06-13 17:31:47 [127.0.0.1][1][ovdnfpur7ruit90baing0751m4][info][application] $_GET = [
+    'm' => 'update'
+    'id' => '2'
+]
+
+$_POST = [
+    '_csrf-backend' => 'u35P8_MpC0BdGJu8gRl3vQr67zs5DItQtGog6RUwTIfBThu5sUI-KC508ObOXzb2e8yrSmA11CjuHRSrLFY9yQ=='
+    'Users' => [
+        'username' => 'Иван'
+        'email' => 'Alexeym78@mail.ru'
+        'role' => 'oper'
+        'npassword' => ''
+        'cpassword' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'ovdnfpur7ruit90baing0751m4'
+    '_csrf-backend' => '39fa67ba133d4c6971e03fd5dd831ed052373332fde5b1c3e46def140c1b344ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"z0TJBk5hslkZOFAKq6DqY9_xZw4B9fqN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dd.git'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/users?m=update&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=ovdnfpur7ruit90baing0751m4; _csrf-backend=39fa67ba133d4c6971e03fd5dd831ed052373332fde5b1c3e46def140c1b344ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22z0TJBk5hslkZOFAKq6DqY9_xZw4B9fqN%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52302'
+    'REDIRECT_QUERY_STRING' => 'm=update&id=2'
+    'REDIRECT_URL' => '/admin/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'm=update&id=2'
+    'REQUEST_URI' => '/admin/users?m=update&id=2'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528889506.865
+    'REQUEST_TIME' => 1528889506
+    'argv' => [
+        0 => 'm=update&id=2'
+    ]
+    'argc' => 1
+]
+2018-06-13 17:54:17 [127.0.0.1][1][ovdnfpur7ruit90baing0751m4][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'Error while sending QUERY packet. PID=3788' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php(412): yii\db\Command->queryInternal('', '')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Query.php(446): yii\db\Command->queryScalar()
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveQuery.php(339): yii\db\Query->queryScalar('', '')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Query.php(330): yii\db\ActiveQuery->queryScalar('', '')
+#4 H:\OpenServer\domains\dd.git\backend\models\Users.php(59): yii\db\Query->count('', '')
+#5 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\InlineValidator.php(72): backend\models\Users->checkDouble('', '', '')
+#6 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\InlineValidator.php(72): ::call_user_func:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\InlineValidator.php:72}('', '', '', '')
+#7 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\Validator.php(267): yii\validators\InlineValidator->validateAttribute('', '')
+#8 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Model.php(360): yii\validators\Validator->validateAttributes('', '')
+#9 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveRecord.php(581): yii\base\Model->validate('', '')
+#10 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(649): yii\db\ActiveRecord->update('', '')
+#11 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(168): yii\db\BaseActiveRecord->save('', '')
+#12 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(121): backend\controllers\SiteController->UsersUpdate()
+#13 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): backend\controllers\SiteController->actionUsers('')
+#14 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#15 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#16 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#17 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#18 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#19 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+
+Next exception 'yii\db\Exception' with message 'Error while sending QUERY packet. PID=3788
+The SQL being executed was: SELECT COUNT(*) FROM `user` WHERE (`username`='Иван') AND (`id` <> 2)' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(yii\base\ErrorException), 'SELECT COUNT(*)...')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php(412): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Query.php(446): yii\db\Command->queryScalar()
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveQuery.php(339): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Query.php(330): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 H:\OpenServer\domains\dd.git\backend\models\Users.php(59): yii\db\Query->count()
+#6 [internal function]: backend\models\Users->checkDouble('username', NULL, Object(yii\validators\InlineValidator))
+#7 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\InlineValidator.php(72): call_user_func(Array, 'username', NULL, Object(yii\validators\InlineValidator))
+#8 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\Validator.php(267): yii\validators\InlineValidator->validateAttribute(Object(backend\models\Users), 'username')
+#9 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Model.php(360): yii\validators\Validator->validateAttributes(Object(backend\models\Users), Array)
+#10 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveRecord.php(581): yii\base\Model->validate(NULL)
+#11 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(649): yii\db\ActiveRecord->update(true, NULL)
+#12 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(168): yii\db\BaseActiveRecord->save()
+#13 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(121): backend\controllers\SiteController->UsersUpdate()
+#14 [internal function]: backend\controllers\SiteController->actionUsers('update')
+#15 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('users', Array)
+#18 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/users', Array)
+#19 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2018-06-13 17:50:46 [127.0.0.1][1][ovdnfpur7ruit90baing0751m4][info][application] $_GET = [
+    'm' => 'update'
+    'id' => '2'
+]
+
+$_POST = [
+    '_csrf-backend' => 'Dgcnu7JssaUPKehIMsoQ8r5v14ByamjmVCk9bBpswXB0N3Px8AeEzXxFgxJ9jFG5z1mT8StTN54OXgkuIwqwPg=='
+    'Users' => [
+        'username' => 'Иван'
+        'email' => 'Alexeym78@mail.com'
+        'role' => 'oper'
+        'npassword' => ''
+        'cpassword' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => 'ovdnfpur7ruit90baing0751m4'
+    '_csrf-backend' => '39fa67ba133d4c6971e03fd5dd831ed052373332fde5b1c3e46def140c1b344ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"z0TJBk5hslkZOFAKq6DqY9_xZw4B9fqN\";}'
+    'XDEBUG_SESSION' => '11555'
+    'advanced-frontend' => 'tmo5caukrglk5eguslmqvsb9n5'
+    '_csrf-frontend' => '46cef3cda229b4eb23837b1d452b6583af226b73e568c7dbf21520aca7d3f94ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"odEeWsikHY4EH27N0N9H6hvNvJupCAUP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '254'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dd.git'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/users?m=update&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=ovdnfpur7ruit90baing0751m4; _csrf-backend=39fa67ba133d4c6971e03fd5dd831ed052373332fde5b1c3e46def140c1b344ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22z0TJBk5hslkZOFAKq6DqY9_xZw4B9fqN%22%3B%7D; XDEBUG_SESSION=11555; advanced-frontend=tmo5caukrglk5eguslmqvsb9n5; _csrf-frontend=46cef3cda229b4eb23837b1d452b6583af226b73e568c7dbf21520aca7d3f94ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22odEeWsikHY4EH27N0N9H6hvNvJupCAUP%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '54030'
+    'REDIRECT_QUERY_STRING' => 'm=update&id=2'
+    'REDIRECT_URL' => '/admin/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'm=update&id=2'
+    'REQUEST_URI' => '/admin/users?m=update&id=2'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528890646.514
+    'REQUEST_TIME' => 1528890646
+    'argv' => [
+        0 => 'm=update&id=2'
+    ]
+    'argc' => 1
+]
+2018-06-13 20:58:48 [127.0.0.1][1][76o9rseftltaec2bv6oeepa2g0][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDOStatement::execute(): MySQL server has gone away' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php(412): yii\db\Command->queryInternal('', '')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Query.php(446): yii\db\Command->queryScalar()
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveQuery.php(339): yii\db\Query->queryScalar('', '')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Query.php(330): yii\db\ActiveQuery->queryScalar('', '')
+#4 H:\OpenServer\domains\dd.git\backend\models\Users.php(68): yii\db\Query->count('', '')
+#5 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\InlineValidator.php(72): backend\models\Users->checkDouble('', '', '')
+#6 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\InlineValidator.php(72): ::call_user_func:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\InlineValidator.php:72}('', '', '', '')
+#7 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\Validator.php(267): yii\validators\InlineValidator->validateAttribute('', '')
+#8 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Model.php(360): yii\validators\Validator->validateAttributes('', '')
+#9 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveRecord.php(581): yii\base\Model->validate('', '')
+#10 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(649): yii\db\ActiveRecord->update('', '')
+#11 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(168): yii\db\BaseActiveRecord->save('', '')
+#12 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(121): backend\controllers\SiteController->UsersUpdate()
+#13 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): backend\controllers\SiteController->actionUsers('')
+#14 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#15 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#16 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#17 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#18 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#19 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+
+Next exception 'yii\db\Exception' with message 'PDOStatement::execute(): MySQL server has gone away
+The SQL being executed was: SELECT COUNT(*) FROM `user` WHERE (`username`='Иван') AND (`id` <> 2)' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(yii\base\ErrorException), 'SELECT COUNT(*)...')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php(412): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Query.php(446): yii\db\Command->queryScalar()
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveQuery.php(339): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Query.php(330): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 H:\OpenServer\domains\dd.git\backend\models\Users.php(68): yii\db\Query->count()
+#6 [internal function]: backend\models\Users->checkDouble('username', NULL, Object(yii\validators\InlineValidator))
+#7 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\InlineValidator.php(72): call_user_func(Array, 'username', NULL, Object(yii\validators\InlineValidator))
+#8 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\validators\Validator.php(267): yii\validators\InlineValidator->validateAttribute(Object(backend\models\Users), 'username')
+#9 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Model.php(360): yii\validators\Validator->validateAttributes(Object(backend\models\Users), Array)
+#10 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveRecord.php(581): yii\base\Model->validate(NULL)
+#11 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(649): yii\db\ActiveRecord->update(true, NULL)
+#12 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(168): yii\db\BaseActiveRecord->save()
+#13 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(121): backend\controllers\SiteController->UsersUpdate()
+#14 [internal function]: backend\controllers\SiteController->actionUsers('update')
+#15 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('users', Array)
+#18 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/users', Array)
+#19 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2018-06-13 20:56:07 [127.0.0.1][1][76o9rseftltaec2bv6oeepa2g0][info][application] $_GET = [
+    'm' => 'update'
+    'id' => '2'
+]
+
+$_POST = [
+    '_csrf-backend' => 'XJSYx9qC_peyAsifxMrrfVN_a4ppjGekhY0zxBwu1LVspNH-qt2c4dljg_OgpIQ3YCU4-TG0NczKoGqHWB2dgA=='
+    'Users' => [
+        'username' => 'Иван'
+        'email' => 'Alexeym78@mail.com'
+        'role' => 'oper'
+        'npassword' => '1234'
+        'cpassword' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => '76o9rseftltaec2bv6oeepa2g0'
+    '_csrf-backend' => '6ea283d513f47cc01f026caa05f7a8971a2d5aa6feb9789d1fa4a4222ec7cd8ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"00I9p_bvkaKldnoJ3ZSsX8RhO-YCD3I5\";}'
+    'XDEBUG_SESSION' => '13272'
+    'advanced-frontend' => 'vpo3cqa5rjthmm9osnu949rns7'
+    '_csrf-frontend' => '88b53eb2aed3dbfe7ecfa19436c5c00a231651e1bd95c380a0649c0658687913a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KNOVC-c58u5pZnKnmQ8JmHWqG6C0KN6R\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '258'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dd.git'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/users?m=update&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=76o9rseftltaec2bv6oeepa2g0; _csrf-backend=6ea283d513f47cc01f026caa05f7a8971a2d5aa6feb9789d1fa4a4222ec7cd8ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2200I9p_bvkaKldnoJ3ZSsX8RhO-YCD3I5%22%3B%7D; XDEBUG_SESSION=13272; advanced-frontend=vpo3cqa5rjthmm9osnu949rns7; _csrf-frontend=88b53eb2aed3dbfe7ecfa19436c5c00a231651e1bd95c380a0649c0658687913a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KNOVC-c58u5pZnKnmQ8JmHWqG6C0KN6R%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '49919'
+    'REDIRECT_QUERY_STRING' => 'm=update&id=2'
+    'REDIRECT_URL' => '/admin/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'm=update&id=2'
+    'REQUEST_URI' => '/admin/users?m=update&id=2'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528901767.254
+    'REQUEST_TIME' => 1528901767
+    'argv' => [
+        0 => 'm=update&id=2'
+    ]
+    'argc' => 1
+]
+2018-06-13 22:41:30 [127.0.0.1][1][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'Error while sending QUERY packet. PID=4156' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('', '')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne('')
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one('')
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one('')
+#4 H:\OpenServer\domains\dd.git\common\models\SettingsRecord.php(26): yii\db\BaseActiveRecord::findOne('')
+#5 H:\OpenServer\domains\dd.git\backend\views\site\usersForm.php(11): common\models\SettingsRecord::findValue('', '')
+#6 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\View.php(332): ::unknown()
+#7 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('', '')
+#8 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('', '', '')
+#9 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('', '', '')
+#10 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(175): yii\base\Controller->render('', '')
+#11 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(121): backend\controllers\SiteController->UsersUpdate()
+#12 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): backend\controllers\SiteController->actionUsers('')
+#13 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php:57}('', '')
+#14 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('')
+#15 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', '')
+#16 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', '')
+#17 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest('')
+#18 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#19 {main}
+
+Next exception 'yii\db\Exception' with message 'Error while sending QUERY packet. PID=4156
+The SQL being executed was: SELECT * FROM `settings` WHERE (`group`='system') AND (`param`='roles')' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(yii\base\ErrorException), 'SELECT * FROM `...')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Command.php(400): yii\db\Command->queryInternal('fetch', NULL)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\Query.php(257): yii\db\Command->queryOne()
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\ActiveQuery.php(294): yii\db\Query->one(NULL)
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\db\BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#5 H:\OpenServer\domains\dd.git\common\models\SettingsRecord.php(26): yii\db\BaseActiveRecord::findOne(Array)
+#6 H:\OpenServer\domains\dd.git\backend\views\site\usersForm.php(11): common\models\SettingsRecord::findValue('system', 'roles')
+#7 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\View.php(332): require('H:\\OpenServer\\d...')
+#8 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('H:\\OpenServer\\d...', Array)
+#9 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('H:\\OpenServer\\d...', Array, Object(backend\controllers\SiteController))
+#10 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('usersForm', Array, Object(backend\controllers\SiteController))
+#11 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(175): yii\base\Controller->render('usersForm', Array)
+#12 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(121): backend\controllers\SiteController->UsersUpdate()
+#13 [internal function]: backend\controllers\SiteController->actionUsers('update')
+#14 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('users', Array)
+#17 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/users', Array)
+#18 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2018-06-13 20:58:52 [127.0.0.1][1][-][info][application] $_GET = [
+    'm' => 'update'
+    'id' => '2'
+]
+
+$_POST = [
+    '_csrf-backend' => 'XJSYx9qC_peyAsifxMrrfVN_a4ppjGekhY0zxBwu1LVspNH-qt2c4dljg_OgpIQ3YCU4-TG0NczKoGqHWB2dgA=='
+    'Users' => [
+        'username' => 'Иван'
+        'email' => 'Alexeym78@mail.com'
+        'role' => 'oper'
+        'npassword' => '1234'
+        'cpassword' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    '_identity-frontend' => 'a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+    'advanced-backend' => '76o9rseftltaec2bv6oeepa2g0'
+    '_csrf-backend' => '6ea283d513f47cc01f026caa05f7a8971a2d5aa6feb9789d1fa4a4222ec7cd8ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"00I9p_bvkaKldnoJ3ZSsX8RhO-YCD3I5\";}'
+    'XDEBUG_SESSION' => '13272'
+    'advanced-frontend' => 'vpo3cqa5rjthmm9osnu949rns7'
+    '_csrf-frontend' => '88b53eb2aed3dbfe7ecfa19436c5c00a231651e1bd95c380a0649c0658687913a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KNOVC-c58u5pZnKnmQ8JmHWqG6C0KN6R\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'error' => -1
+    ]
+    '__id' => 1
+    'error' => '<div><p>Исправьте следующие ошибки:</p><ul><li>Пароль не задан!</li></ul></div>'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '258'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dd.git'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/users?m=update&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; _identity-frontend=a38b7a2791c996c763d37f6527a0e45eb5d0ee551f6e173d7d6c7745da29a12aa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D; advanced-backend=76o9rseftltaec2bv6oeepa2g0; _csrf-backend=6ea283d513f47cc01f026caa05f7a8971a2d5aa6feb9789d1fa4a4222ec7cd8ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2200I9p_bvkaKldnoJ3ZSsX8RhO-YCD3I5%22%3B%7D; XDEBUG_SESSION=13272; advanced-frontend=vpo3cqa5rjthmm9osnu949rns7; _csrf-frontend=88b53eb2aed3dbfe7ecfa19436c5c00a231651e1bd95c380a0649c0658687913a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KNOVC-c58u5pZnKnmQ8JmHWqG6C0KN6R%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50249'
+    'REDIRECT_QUERY_STRING' => 'm=update&id=2'
+    'REDIRECT_URL' => '/admin/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'm=update&id=2'
+    'REQUEST_URI' => '/admin/users?m=update&id=2'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528901932.495
+    'REQUEST_TIME' => 1528901932
+    'argv' => [
+        0 => 'm=update&id=2'
+    ]
+    'argc' => 1
+]
+2018-06-13 22:59:10 [127.0.0.1][2][e3vjfe7geoo702pqdai2r0v984][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-13 22:59:09 [127.0.0.1][2][e3vjfe7geoo702pqdai2r0v984][info][application] $_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => 'e3vjfe7geoo702pqdai2r0v984'
+    '_identity-backend' => 'b3e69eabef1ab2040e24dd86120fdd68de9fcf20c1458da94902ee2769e2015ea:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"sVowKc5chdZI3CQjrZghbXmusOto0Zp1\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=e3vjfe7geoo702pqdai2r0v984; _identity-backend=b3e69eabef1ab2040e24dd86120fdd68de9fcf20c1458da94902ee2769e2015ea%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zp1%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52821'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909149.606
+    'REQUEST_TIME' => 1528909149
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 22:59:16 [127.0.0.1][2][e3vjfe7geoo702pqdai2r0v984][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('logout', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/logout', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-13 22:59:15 [127.0.0.1][2][e3vjfe7geoo702pqdai2r0v984][info][application] $_POST = [
+    '_csrf-backend' => 'pxn9Xzupw2j1IY5hlQoEu_tXygLluMcHZ-rMVqc57hTuKpprCu-OMIB49iOkXGf9tgeIStLd8TEh060nyVyERg=='
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => 'e3vjfe7geoo702pqdai2r0v984'
+    '_identity-backend' => 'b3e69eabef1ab2040e24dd86120fdd68de9fcf20c1458da94902ee2769e2015ea:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"sVowKc5chdZI3CQjrZghbXmusOto0Zp1\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dd.git'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=e3vjfe7geoo702pqdai2r0v984; _identity-backend=b3e69eabef1ab2040e24dd86120fdd68de9fcf20c1458da94902ee2769e2015ea%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zp1%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52821'
+    'REDIRECT_URL' => '/admin/logout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/logout'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909155.809
+    'REQUEST_TIME' => 1528909155
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 22:59:27 [127.0.0.1][2][e3vjfe7geoo702pqdai2r0v984][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('logout', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/logout', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-13 22:59:26 [127.0.0.1][2][e3vjfe7geoo702pqdai2r0v984][info][application] $_POST = [
+    '_csrf-backend' => '0DY-1MxodvR96dSWEhy7fD5Nw1Mfqls9fPe604SZX4SZBVng_S47rAiwrNQjStg6cx2BGyjPbQs6ztui6vw11g=='
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => 'e3vjfe7geoo702pqdai2r0v984'
+    '_identity-backend' => 'b3e69eabef1ab2040e24dd86120fdd68de9fcf20c1458da94902ee2769e2015ea:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"sVowKc5chdZI3CQjrZghbXmusOto0Zp1\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dd.git'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/logout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=e3vjfe7geoo702pqdai2r0v984; _identity-backend=b3e69eabef1ab2040e24dd86120fdd68de9fcf20c1458da94902ee2769e2015ea%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zp1%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52821'
+    'REDIRECT_URL' => '/admin/logout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/logout'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909166.543
+    'REQUEST_TIME' => 1528909166
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 22:59:34 [127.0.0.1][2][e3vjfe7geoo702pqdai2r0v984][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sprav/city".' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('sprav/city', Array)
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-06-13 22:59:34 [127.0.0.1][2][e3vjfe7geoo702pqdai2r0v984][info][application] $_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => 'e3vjfe7geoo702pqdai2r0v984'
+    '_identity-backend' => 'b3e69eabef1ab2040e24dd86120fdd68de9fcf20c1458da94902ee2769e2015ea:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"sVowKc5chdZI3CQjrZghbXmusOto0Zp1\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/logout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=e3vjfe7geoo702pqdai2r0v984; _identity-backend=b3e69eabef1ab2040e24dd86120fdd68de9fcf20c1458da94902ee2769e2015ea%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zp1%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52821'
+    'REDIRECT_URL' => '/backend/web/sprav/city'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/sprav/city'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909174.204
+    'REQUEST_TIME' => 1528909174
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 22:59:39 [127.0.0.1][2][e3vjfe7geoo702pqdai2r0v984][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('logout', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/logout', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-13 22:59:38 [127.0.0.1][2][e3vjfe7geoo702pqdai2r0v984][info][application] $_POST = [
+    '_csrf-backend' => 'cmHRCXpZzxHhxe57OtKekdTixdcd8LbNYmvtQyRDnH87UrY9Sx-CSZScljkLhP3XmbKHnyqVgPskUowySib2LQ=='
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => 'e3vjfe7geoo702pqdai2r0v984'
+    '_identity-backend' => 'b3e69eabef1ab2040e24dd86120fdd68de9fcf20c1458da94902ee2769e2015ea:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"sVowKc5chdZI3CQjrZghbXmusOto0Zp1\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dd.git'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/sprav/city'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=e3vjfe7geoo702pqdai2r0v984; _identity-backend=b3e69eabef1ab2040e24dd86120fdd68de9fcf20c1458da94902ee2769e2015ea%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zp1%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52821'
+    'REDIRECT_URL' => '/admin/logout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/logout'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909178.11
+    'REQUEST_TIME' => 1528909178
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 23:00:13 [127.0.0.1][-][2e8rpfdktine1v2gu51f5h70t4][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-13 23:00:13 [127.0.0.1][-][2e8rpfdktine1v2gu51f5h70t4][info][application] $_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => '2e8rpfdktine1v2gu51f5h70t4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/logout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=2e8rpfdktine1v2gu51f5h70t4'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52938'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909213.506
+    'REQUEST_TIME' => 1528909213
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 23:00:19 [127.0.0.1][-][2e8rpfdktine1v2gu51f5h70t4][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-13 23:00:19 [127.0.0.1][-][2e8rpfdktine1v2gu51f5h70t4][info][application] $_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => '2e8rpfdktine1v2gu51f5h70t4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/logout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=2e8rpfdktine1v2gu51f5h70t4'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52938'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909219.172
+    'REQUEST_TIME' => 1528909219
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 23:00:38 [127.0.0.1][2][07qr3s53ssb434vtgpb47eemq3][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-13 23:00:37 [127.0.0.1][2][07qr3s53ssb434vtgpb47eemq3][info][application] $_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => '07qr3s53ssb434vtgpb47eemq3'
+    '_identity-backend' => '65e31d8b657f0ef412d25e7e69dd5172c368d4f7b0a76deebefc09ca50616623a:2:{i:0;s:17:\"_identity-backend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=07qr3s53ssb434vtgpb47eemq3; _identity-backend=65e31d8b657f0ef412d25e7e69dd5172c368d4f7b0a76deebefc09ca50616623a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52985'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909237.378
+    'REQUEST_TIME' => 1528909237
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 23:00:44 [127.0.0.1][-][mnq96iilbni113nmo2j25dcj25][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-13 23:00:44 [127.0.0.1][-][mnq96iilbni113nmo2j25dcj25][info][application] $_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => 'mnq96iilbni113nmo2j25dcj25'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=mnq96iilbni113nmo2j25dcj25'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52985'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909244.412
+    'REQUEST_TIME' => 1528909244
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 23:00:48 [127.0.0.1][-][mnq96iilbni113nmo2j25dcj25][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-13 23:00:48 [127.0.0.1][-][mnq96iilbni113nmo2j25dcj25][info][application] $_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => 'mnq96iilbni113nmo2j25dcj25'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=mnq96iilbni113nmo2j25dcj25'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52985'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909248.453
+    'REQUEST_TIME' => 1528909248
+    'argv' => []
+    'argc' => 0
+]
+2018-06-13 23:00:50 [127.0.0.1][-][mnq96iilbni113nmo2j25dcj25][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-13 23:00:50 [127.0.0.1][-][mnq96iilbni113nmo2j25dcj25][info][application] $_COOKIE = [
+    '_csrf-backend' => '32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I3g41FMXuYxB1VcFMPBH7e66F9aqnejR\";}'
+    'advanced-backend' => 'mnq96iilbni113nmo2j25dcj25'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf-backend=32ec9b90b62f0c05c6c453dccaf92b02d0f3635d7271a7143e4386af89a03bc2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I3g41FMXuYxB1VcFMPBH7e66F9aqnejR%22%3B%7D; advanced-backend=mnq96iilbni113nmo2j25dcj25'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '52985'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528909250.319
+    'REQUEST_TIME' => 1528909250
+    'argv' => []
+    'argc' => 0
+]
+2018-06-14 22:27:43 [127.0.0.1][-][i8e58391vokdjqk8e4e31hlm85][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-14 22:27:43 [127.0.0.1][-][i8e58391vokdjqk8e4e31hlm85][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'XDEBUG_SESSION' => '15206'
+    'advanced-frontend' => 'dendi3lobd6d67qm7takql6694'
+    '_csrf-frontend' => '7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"rs-opTBGQimUjVUtbMgFTyygRpiPkK8M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=15206; advanced-frontend=dendi3lobd6d67qm7takql6694; _csrf-frontend=7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22rs-opTBGQimUjVUtbMgFTyygRpiPkK8M%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50759'
+    'REDIRECT_URL' => '/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528993663.711
+    'REQUEST_TIME' => 1528993663
+    'argv' => []
+    'argc' => 0
+]
+2018-06-14 22:27:46 [127.0.0.1][-][i8e58391vokdjqk8e4e31hlm85][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-14 22:27:46 [127.0.0.1][-][i8e58391vokdjqk8e4e31hlm85][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'XDEBUG_SESSION' => '15206'
+    'advanced-frontend' => 'dendi3lobd6d67qm7takql6694'
+    '_csrf-frontend' => '7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"rs-opTBGQimUjVUtbMgFTyygRpiPkK8M\";}'
+    'advanced-backend' => 'i8e58391vokdjqk8e4e31hlm85'
+    '_csrf-backend' => '47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qIp4Or81WfDejzGINbvz9j2fTaZU_ioL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=15206; advanced-frontend=dendi3lobd6d67qm7takql6694; _csrf-frontend=7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22rs-opTBGQimUjVUtbMgFTyygRpiPkK8M%22%3B%7D; advanced-backend=i8e58391vokdjqk8e4e31hlm85; _csrf-backend=47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qIp4Or81WfDejzGINbvz9j2fTaZU_ioL%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50759'
+    'REDIRECT_URL' => '/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528993665.979
+    'REQUEST_TIME' => 1528993665
+    'argv' => []
+    'argc' => 0
+]
+2018-06-14 22:30:47 [127.0.0.1][-][i7226bid6dr9m97c5mhk69juq0][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-14 22:30:47 [127.0.0.1][-][i7226bid6dr9m97c5mhk69juq0][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'XDEBUG_SESSION' => '15206'
+    'advanced-frontend' => 'dendi3lobd6d67qm7takql6694'
+    '_csrf-frontend' => '7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"rs-opTBGQimUjVUtbMgFTyygRpiPkK8M\";}'
+    '_csrf-backend' => '47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qIp4Or81WfDejzGINbvz9j2fTaZU_ioL\";}'
+    'advanced-backend' => 'i7226bid6dr9m97c5mhk69juq0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=15206; advanced-frontend=dendi3lobd6d67qm7takql6694; _csrf-frontend=7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22rs-opTBGQimUjVUtbMgFTyygRpiPkK8M%22%3B%7D; _csrf-backend=47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qIp4Or81WfDejzGINbvz9j2fTaZU_ioL%22%3B%7D; advanced-backend=i7226bid6dr9m97c5mhk69juq0'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50761'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528993847.459
+    'REQUEST_TIME' => 1528993847
+    'argv' => []
+    'argc' => 0
+]
+2018-06-14 22:31:05 [127.0.0.1][-][1m2abeak29ki6t66a3cbbimgm4][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-14 22:31:05 [127.0.0.1][-][1m2abeak29ki6t66a3cbbimgm4][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'XDEBUG_SESSION' => '15206'
+    'advanced-frontend' => 'dendi3lobd6d67qm7takql6694'
+    '_csrf-frontend' => '7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"rs-opTBGQimUjVUtbMgFTyygRpiPkK8M\";}'
+    '_csrf-backend' => '47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qIp4Or81WfDejzGINbvz9j2fTaZU_ioL\";}'
+    'advanced-backend' => '1m2abeak29ki6t66a3cbbimgm4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=15206; advanced-frontend=dendi3lobd6d67qm7takql6694; _csrf-frontend=7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22rs-opTBGQimUjVUtbMgFTyygRpiPkK8M%22%3B%7D; _csrf-backend=47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qIp4Or81WfDejzGINbvz9j2fTaZU_ioL%22%3B%7D; advanced-backend=1m2abeak29ki6t66a3cbbimgm4'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50761'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528993865.832
+    'REQUEST_TIME' => 1528993865
+    'argv' => []
+    'argc' => 0
+]
+2018-06-14 22:31:40 [127.0.0.1][2][j0jkuqhd4sqtiabisknr2kf437][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-14 22:31:39 [127.0.0.1][2][j0jkuqhd4sqtiabisknr2kf437][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'XDEBUG_SESSION' => '15206'
+    'advanced-frontend' => 'dendi3lobd6d67qm7takql6694'
+    '_csrf-frontend' => '7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"rs-opTBGQimUjVUtbMgFTyygRpiPkK8M\";}'
+    '_csrf-backend' => '47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qIp4Or81WfDejzGINbvz9j2fTaZU_ioL\";}'
+    'advanced-backend' => 'j0jkuqhd4sqtiabisknr2kf437'
+    '_identity-backend' => '65e31d8b657f0ef412d25e7e69dd5172c368d4f7b0a76deebefc09ca50616623a:2:{i:0;s:17:\"_identity-backend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=15206; advanced-frontend=dendi3lobd6d67qm7takql6694; _csrf-frontend=7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22rs-opTBGQimUjVUtbMgFTyygRpiPkK8M%22%3B%7D; _csrf-backend=47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qIp4Or81WfDejzGINbvz9j2fTaZU_ioL%22%3B%7D; advanced-backend=j0jkuqhd4sqtiabisknr2kf437; _identity-backend=65e31d8b657f0ef412d25e7e69dd5172c368d4f7b0a76deebefc09ca50616623a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50761'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528993899.414
+    'REQUEST_TIME' => 1528993899
+    'argv' => []
+    'argc' => 0
+]
+2018-06-14 22:31:50 [127.0.0.1][-][btcsfjttc0dempqt91sm01a3e0][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-14 22:31:50 [127.0.0.1][-][btcsfjttc0dempqt91sm01a3e0][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'XDEBUG_SESSION' => '15206'
+    'advanced-frontend' => 'dendi3lobd6d67qm7takql6694'
+    '_csrf-frontend' => '7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"rs-opTBGQimUjVUtbMgFTyygRpiPkK8M\";}'
+    '_csrf-backend' => '47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qIp4Or81WfDejzGINbvz9j2fTaZU_ioL\";}'
+    'advanced-backend' => 'btcsfjttc0dempqt91sm01a3e0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=15206; advanced-frontend=dendi3lobd6d67qm7takql6694; _csrf-frontend=7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22rs-opTBGQimUjVUtbMgFTyygRpiPkK8M%22%3B%7D; _csrf-backend=47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qIp4Or81WfDejzGINbvz9j2fTaZU_ioL%22%3B%7D; advanced-backend=btcsfjttc0dempqt91sm01a3e0'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50761'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528993910.096
+    'REQUEST_TIME' => 1528993910
+    'argv' => []
+    'argc' => 0
+]
+2018-06-14 22:35:14 [127.0.0.1][2][4f87tab8pl0jvibil0uqi6r235][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-14 22:35:13 [127.0.0.1][2][4f87tab8pl0jvibil0uqi6r235][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'XDEBUG_SESSION' => '15206'
+    'advanced-frontend' => 'dendi3lobd6d67qm7takql6694'
+    '_csrf-frontend' => '7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"rs-opTBGQimUjVUtbMgFTyygRpiPkK8M\";}'
+    '_csrf-backend' => '47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qIp4Or81WfDejzGINbvz9j2fTaZU_ioL\";}'
+    'advanced-backend' => '4f87tab8pl0jvibil0uqi6r235'
+    '_identity-backend' => '65e31d8b657f0ef412d25e7e69dd5172c368d4f7b0a76deebefc09ca50616623a:2:{i:0;s:17:\"_identity-backend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=15206; advanced-frontend=dendi3lobd6d67qm7takql6694; _csrf-frontend=7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22rs-opTBGQimUjVUtbMgFTyygRpiPkK8M%22%3B%7D; _csrf-backend=47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qIp4Or81WfDejzGINbvz9j2fTaZU_ioL%22%3B%7D; advanced-backend=4f87tab8pl0jvibil0uqi6r235; _identity-backend=65e31d8b657f0ef412d25e7e69dd5172c368d4f7b0a76deebefc09ca50616623a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50901'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528994113.189
+    'REQUEST_TIME' => 1528994113
+    'argv' => []
+    'argc' => 0
+]
+2018-06-14 22:35:19 [127.0.0.1][-][4vn4k0ki3v2ks9vlr35evj17c0][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-14 22:35:19 [127.0.0.1][-][4vn4k0ki3v2ks9vlr35evj17c0][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'XDEBUG_SESSION' => '15206'
+    'advanced-frontend' => 'dendi3lobd6d67qm7takql6694'
+    '_csrf-frontend' => '7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"rs-opTBGQimUjVUtbMgFTyygRpiPkK8M\";}'
+    '_csrf-backend' => '47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qIp4Or81WfDejzGINbvz9j2fTaZU_ioL\";}'
+    'advanced-backend' => '4vn4k0ki3v2ks9vlr35evj17c0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=15206; advanced-frontend=dendi3lobd6d67qm7takql6694; _csrf-frontend=7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22rs-opTBGQimUjVUtbMgFTyygRpiPkK8M%22%3B%7D; _csrf-backend=47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qIp4Or81WfDejzGINbvz9j2fTaZU_ioL%22%3B%7D; advanced-backend=4vn4k0ki3v2ks9vlr35evj17c0'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50901'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528994118.948
+    'REQUEST_TIME' => 1528994118
+    'argv' => []
+    'argc' => 0
+]
+2018-06-14 22:40:17 [127.0.0.1][-][akboms6a2gtmlvnv47r64rhho3][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-14 22:40:17 [127.0.0.1][-][akboms6a2gtmlvnv47r64rhho3][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'XDEBUG_SESSION' => '15206'
+    'advanced-frontend' => 'dendi3lobd6d67qm7takql6694'
+    '_csrf-frontend' => '7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"rs-opTBGQimUjVUtbMgFTyygRpiPkK8M\";}'
+    '_csrf-backend' => '47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"qIp4Or81WfDejzGINbvz9j2fTaZU_ioL\";}'
+    'advanced-backend' => 'akboms6a2gtmlvnv47r64rhho3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; XDEBUG_SESSION=15206; advanced-frontend=dendi3lobd6d67qm7takql6694; _csrf-frontend=7a98e1d1c2c6a31c1f403b7ea63940e56dc48b851afb825a50d6b3467b4a7428a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22rs-opTBGQimUjVUtbMgFTyygRpiPkK8M%22%3B%7D; _csrf-backend=47ee2d60b52dc21f009c0f4061fdc9400df8c54f67cf43b6bea99a424a64e096a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22qIp4Or81WfDejzGINbvz9j2fTaZU_ioL%22%3B%7D; advanced-backend=akboms6a2gtmlvnv47r64rhho3'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50959'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528994417.608
+    'REQUEST_TIME' => 1528994417
+    'argv' => []
+    'argc' => 0
+]
+2018-06-16 18:58:34 [127.0.0.1][-][590natoceiel1qv05ef4h9efp6][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-16 18:58:34 [127.0.0.1][-][590natoceiel1qv05ef4h9efp6][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'advanced-frontend' => '3otikfi6liokvjv7c9d07962a6'
+    '_csrf-frontend' => 'cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9vxccxjWLWQITt2k1sQig0uSvM7GIoNt\";}'
+    '_csrf-backend' => '3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o2Eto3SayoyHbunI_BM_L91HRYXdW5zh\";}'
+    'advanced-backend' => '590natoceiel1qv05ef4h9efp6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/users?m=index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; advanced-frontend=3otikfi6liokvjv7c9d07962a6; _csrf-frontend=cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229vxccxjWLWQITt2k1sQig0uSvM7GIoNt%22%3B%7D; _csrf-backend=3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o2Eto3SayoyHbunI_BM_L91HRYXdW5zh%22%3B%7D; advanced-backend=590natoceiel1qv05ef4h9efp6'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50661'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1529153914.212
+    'REQUEST_TIME' => 1529153914
+    'argv' => []
+    'argc' => 0
+]
+2018-06-16 19:00:18 [127.0.0.1][-][54ptdso7f8bc0ohpkr2c92sk14][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-16 19:00:18 [127.0.0.1][-][54ptdso7f8bc0ohpkr2c92sk14][info][application] $_COOKIE = [
+    '_identity-frontend' => 'edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:14:\"[2,\"\",2592000]\";}'
+    'advanced-frontend' => '3otikfi6liokvjv7c9d07962a6'
+    '_csrf-frontend' => 'cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9vxccxjWLWQITt2k1sQig0uSvM7GIoNt\";}'
+    '_csrf-backend' => '3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o2Eto3SayoyHbunI_BM_L91HRYXdW5zh\";}'
+    'advanced-backend' => '54ptdso7f8bc0ohpkr2c92sk14'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/users?m=index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity-frontend=edbb03d5b68e54996476abc0654e0386fb1944194db8d6c1c28de45cf042bc89a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A14%3A%22%5B2%2C%22%22%2C2592000%5D%22%3B%7D; advanced-frontend=3otikfi6liokvjv7c9d07962a6; _csrf-frontend=cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229vxccxjWLWQITt2k1sQig0uSvM7GIoNt%22%3B%7D; _csrf-backend=3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o2Eto3SayoyHbunI_BM_L91HRYXdW5zh%22%3B%7D; advanced-backend=54ptdso7f8bc0ohpkr2c92sk14'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '50743'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1529154018.056
+    'REQUEST_TIME' => 1529154018
+    'argv' => []
+    'argc' => 0
+]
+2018-06-16 19:35:02 [127.0.0.1][-][enbrr24c9neh09vlkkebjiu0h3][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-16 19:35:02 [127.0.0.1][-][enbrr24c9neh09vlkkebjiu0h3][info][application] $_COOKIE = [
+    'advanced-frontend' => '3otikfi6liokvjv7c9d07962a6'
+    '_csrf-frontend' => 'cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9vxccxjWLWQITt2k1sQig0uSvM7GIoNt\";}'
+    '_csrf-backend' => '3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o2Eto3SayoyHbunI_BM_L91HRYXdW5zh\";}'
+    'XDEBUG_SESSION' => '14223'
+    'advanced-backend' => 'enbrr24c9neh09vlkkebjiu0h3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/users?m=index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=3otikfi6liokvjv7c9d07962a6; _csrf-frontend=cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229vxccxjWLWQITt2k1sQig0uSvM7GIoNt%22%3B%7D; _csrf-backend=3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o2Eto3SayoyHbunI_BM_L91HRYXdW5zh%22%3B%7D; XDEBUG_SESSION=14223; advanced-backend=enbrr24c9neh09vlkkebjiu0h3'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '51037'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1529156102.465
+    'REQUEST_TIME' => 1529156102
+    'argv' => []
+    'argc' => 0
+]
+2018-06-16 19:35:06 [127.0.0.1][-][enbrr24c9neh09vlkkebjiu0h3][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Доступ к этому разделу запрещен!' in H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php:67
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(155): backend\controllers\SiteController->beforeAction(Object(yii\base\InlineAction))
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#2 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2018-06-16 19:35:06 [127.0.0.1][-][enbrr24c9neh09vlkkebjiu0h3][info][application] $_COOKIE = [
+    'advanced-frontend' => '3otikfi6liokvjv7c9d07962a6'
+    '_csrf-frontend' => 'cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9vxccxjWLWQITt2k1sQig0uSvM7GIoNt\";}'
+    '_csrf-backend' => '3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o2Eto3SayoyHbunI_BM_L91HRYXdW5zh\";}'
+    'XDEBUG_SESSION' => '14223'
+    'advanced-backend' => 'enbrr24c9neh09vlkkebjiu0h3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=3otikfi6liokvjv7c9d07962a6; _csrf-frontend=cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229vxccxjWLWQITt2k1sQig0uSvM7GIoNt%22%3B%7D; _csrf-backend=3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o2Eto3SayoyHbunI_BM_L91HRYXdW5zh%22%3B%7D; XDEBUG_SESSION=14223; advanced-backend=enbrr24c9neh09vlkkebjiu0h3'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '51037'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1529156106.308
+    'REQUEST_TIME' => 1529156106
+    'argv' => []
+    'argc' => 0
+]
+2018-06-16 19:43:48 [127.0.0.1][1][0bm25e1f1tlgdcna3jme84kgu0][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @_common/components/cpanel/assets' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\AssetBundle.php(135): yii\BaseYii::getAlias('@_common/compon...')
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\BaseObject.php(108): yii\web\AssetBundle->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#4 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('common\\componen...', Array, Array)
+#5 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('common\\componen...', Array, Array)
+#6 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\AssetManager.php(266): yii\BaseYii::createObject(Array)
+#7 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle('common\\componen...', Array, true)
+#8 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle('common\\componen...')
+#9 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('common\\componen...')
+#10 H:\OpenServer\domains\dd.git\common\components\cpanel\CPanelBtn.php(56): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 H:\OpenServer\domains\dd.git\common\components\cpanel\CPanelBtn.php(11): common\components\cpanel\CPanelBtn->registerAssets()
+#12 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\BaseObject.php(108): common\components\cpanel\CPanelBtn->init()
+#13 [internal function]: yii\base\BaseObject->__construct(Array)
+#14 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#15 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('common\\componen...', Array, Array)
+#16 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('common\\componen...', Array, Array)
+#17 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Widget.php(89): yii\BaseYii::createObject(Array)
+#18 H:\OpenServer\domains\dd.git\backend\views\site\index.php(10): yii\base\Widget::begin()
+#19 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\View.php(332): require('H:\\OpenServer\\d...')
+#20 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('H:\\OpenServer\\d...', Array)
+#21 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('H:\\OpenServer\\d...', Array, Object(backend\controllers\SiteController))
+#22 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#23 H:\OpenServer\domains\dd.git\backend\controllers\SiteController.php(78): yii\base\Controller->render('index')
+#24 [internal function]: backend\controllers\SiteController->actionIndex()
+#25 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#26 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#27 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#28 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#29 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#30 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#31 {main}
+2018-06-16 19:43:47 [127.0.0.1][1][0bm25e1f1tlgdcna3jme84kgu0][info][application] $_COOKIE = [
+    'advanced-frontend' => '3otikfi6liokvjv7c9d07962a6'
+    '_csrf-frontend' => 'cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9vxccxjWLWQITt2k1sQig0uSvM7GIoNt\";}'
+    '_csrf-backend' => '3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o2Eto3SayoyHbunI_BM_L91HRYXdW5zh\";}'
+    'XDEBUG_SESSION' => '14223'
+    'advanced-backend' => '0bm25e1f1tlgdcna3jme84kgu0'
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=3otikfi6liokvjv7c9d07962a6; _csrf-frontend=cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229vxccxjWLWQITt2k1sQig0uSvM7GIoNt%22%3B%7D; _csrf-backend=3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o2Eto3SayoyHbunI_BM_L91HRYXdW5zh%22%3B%7D; XDEBUG_SESSION=14223; advanced-backend=0bm25e1f1tlgdcna3jme84kgu0; _identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '51079'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1529156627.019
+    'REQUEST_TIME' => 1529156627
+    'argv' => []
+    'argc' => 0
+]
+2018-06-16 19:45:56 [127.0.0.1][1][0bm25e1f1tlgdcna3jme84kgu0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/users".' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/users', Array)
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-06-16 19:45:56 [127.0.0.1][1][0bm25e1f1tlgdcna3jme84kgu0][info][application] $_COOKIE = [
+    'advanced-frontend' => '3otikfi6liokvjv7c9d07962a6'
+    '_csrf-frontend' => 'cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9vxccxjWLWQITt2k1sQig0uSvM7GIoNt\";}'
+    '_csrf-backend' => '3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o2Eto3SayoyHbunI_BM_L91HRYXdW5zh\";}'
+    'XDEBUG_SESSION' => '14223'
+    'advanced-backend' => '0bm25e1f1tlgdcna3jme84kgu0'
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=3otikfi6liokvjv7c9d07962a6; _csrf-frontend=cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229vxccxjWLWQITt2k1sQig0uSvM7GIoNt%22%3B%7D; _csrf-backend=3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o2Eto3SayoyHbunI_BM_L91HRYXdW5zh%22%3B%7D; XDEBUG_SESSION=14223; advanced-backend=0bm25e1f1tlgdcna3jme84kgu0; _identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '51092'
+    'REDIRECT_URL' => '/admin/admin/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/admin/users'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1529156756.039
+    'REQUEST_TIME' => 1529156756
+    'argv' => []
+    'argc' => 0
+]
+2018-06-16 19:47:00 [127.0.0.1][1][0bm25e1f1tlgdcna3jme84kgu0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sprav/config".' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('sprav/config', Array)
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-06-16 19:47:00 [127.0.0.1][1][0bm25e1f1tlgdcna3jme84kgu0][info][application] $_COOKIE = [
+    'advanced-frontend' => '3otikfi6liokvjv7c9d07962a6'
+    '_csrf-frontend' => 'cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9vxccxjWLWQITt2k1sQig0uSvM7GIoNt\";}'
+    '_csrf-backend' => '3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o2Eto3SayoyHbunI_BM_L91HRYXdW5zh\";}'
+    'XDEBUG_SESSION' => '14223'
+    'advanced-backend' => '0bm25e1f1tlgdcna3jme84kgu0'
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=3otikfi6liokvjv7c9d07962a6; _csrf-frontend=cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229vxccxjWLWQITt2k1sQig0uSvM7GIoNt%22%3B%7D; _csrf-backend=3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o2Eto3SayoyHbunI_BM_L91HRYXdW5zh%22%3B%7D; XDEBUG_SESSION=14223; advanced-backend=0bm25e1f1tlgdcna3jme84kgu0; _identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '51119'
+    'REDIRECT_URL' => '/backend/web/sprav/config'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/sprav/config'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1529156820.421
+    'REQUEST_TIME' => 1529156820
+    'argv' => []
+    'argc' => 0
+]
+2018-06-16 19:47:13 [127.0.0.1][1][0bm25e1f1tlgdcna3jme84kgu0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sprav/city".' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('sprav/city', Array)
+#1 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 H:\OpenServer\domains\dd.git\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 H:\OpenServer\domains\dd.git\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-06-16 19:47:13 [127.0.0.1][1][0bm25e1f1tlgdcna3jme84kgu0][info][application] $_COOKIE = [
+    'advanced-frontend' => '3otikfi6liokvjv7c9d07962a6'
+    '_csrf-frontend' => 'cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9vxccxjWLWQITt2k1sQig0uSvM7GIoNt\";}'
+    '_csrf-backend' => '3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o2Eto3SayoyHbunI_BM_L91HRYXdW5zh\";}'
+    'XDEBUG_SESSION' => '14223'
+    'advanced-backend' => '0bm25e1f1tlgdcna3jme84kgu0'
+    '_identity-backend' => '5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"sVowKc5chdZI3CQjrZghbXmusOto0Zpe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'dd.git'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dd.git/admin/sprav/config'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=3otikfi6liokvjv7c9d07962a6; _csrf-frontend=cbfd5b3a529139bbc2c4552ab6fc1d2097a7f5d4cedca5e259226493ce90e8eca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229vxccxjWLWQITt2k1sQig0uSvM7GIoNt%22%3B%7D; _csrf-backend=3b169a23a481d93421198b9b3b1defd0e24af0b09c05c4e45343baca3c22e3a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o2Eto3SayoyHbunI_BM_L91HRYXdW5zh%22%3B%7D; XDEBUG_SESSION=14223; advanced-backend=0bm25e1f1tlgdcna3jme84kgu0; _identity-backend=5a037ade98a85dd5ec43427d0fa24949db7648e3cb23a5df2f231afbc11ee447a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sVowKc5chdZI3CQjrZghbXmusOto0Zpe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'H:\\OpenServer\\modules\\php\\PHP-5.5\\ext;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear;H:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;H:\\OpenServer\\modules\\imagemagick;H:\\OpenServer\\modules\\php\\PHP-5.5;H:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4\\bin;H:\\OpenServer\\modules\\http\\Apache-2.4;H:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'dd.git'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'H:/OpenServer/domains/dd.git'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'H:/OpenServer/domains/dd.git/backend/web/index.php'
+    'REMOTE_PORT' => '51125'
+    'REDIRECT_URL' => '/backend/web/sprav/city'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/sprav/city'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1529156833.41
+    'REQUEST_TIME' => 1529156833
+    'argv' => []
+    'argc' => 0
+]
